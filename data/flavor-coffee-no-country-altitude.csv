@@ -1,0 +1,1038 @@
+region,variety,process,moisture,elevation,target
+alta paulista (sao paulo),Mundo Novo,Natural / Dry,0.1100,low,fair
+carmo de minas,Bourbon,Semi-washed / Semi-pulped,0.0000,mid,fair
+carmo de minas,Yellow Bourbon,Semi-washed / Semi-pulped,0.1200,mid,great
+cerrado,Catuai,Natural / Dry,0.1100,low,fair
+cerrado,Catuai,Natural / Dry,0.1100,low,poor
+cerrado,Catuai,Natural / Dry,0.0000,mid,good
+cerrado,Catuai,Natural / Dry,0.1200,low,great
+cerrado,Catuai,Natural / Dry,0.1100,low,fair
+cerrado,Catuai,Semi-washed / Semi-pulped,0.1100,low,fair
+cerrado,Mundo Novo,Natural / Dry,0.0200,low,good
+cerrado,Peaberry,Semi-washed / Semi-pulped,0.1100,low,fair
+grama valley,Mundo Novo,Natural / Dry,0.1200,low,good
+grama valley,Mundo Novo,Natural / Dry,0.1200,low,fair
+grama valley,Mundo Novo,Natural / Dry,0.1200,low,great
+grama valley,Yellow Bourbon,Semi-washed / Semi-pulped,0.1100,mid,good
+high mogiana,Catuai,Natural / Dry,0.0000,low,good
+mantiqueira de minas,Bourbon,Pulped natural / honey,0.1100,low,poor
+mantiqueira de minas,Yellow Bourbon,Natural / Dry,0.1200,mid,poor
+mantiqueira de minas,Yellow Bourbon,other,0.1200,mid,poor
+mantiqueira de minas,Yellow Bourbon,Semi-washed / Semi-pulped,0.1000,mid,fair
+minas gerais,Catuai,Natural / Dry,0.1100,low,good
+minas gerais,Catuai,Natural / Dry,0.1100,low,poor
+minas gerais,Catuai,Semi-washed / Semi-pulped,0.1100,low,great
+minas gerais,Catuai,Washed / Wet,0.0900,low,fair
+minas gerais,Mundo Novo,Natural / Dry,0.1100,low,good
+minas gerais,Mundo Novo,Natural / Dry,0.1100,low,great
+mogiana,Mundo Novo,Natural / Dry,0.1100,low,good
+monte carmelo,Catuai,Natural / Dry,0.1100,low,poor
+monte carmelo,Mundo Novo,Natural / Dry,0.1100,low,fair
+south of minas,Bourbon,Natural / Dry,0.1100,low,good
+south of minas,Bourbon,Natural / Dry,0.1100,low,fair
+south of minas,Bourbon,Natural / Dry,0.0000,low,fair
+south of minas,Bourbon,Natural / Dry,0.1000,low,fair
+south of minas,Bourbon,Natural / Dry,0.0000,low,good
+south of minas,Bourbon,Natural / Dry,0.1100,low,good
+south of minas,Bourbon,Natural / Dry,0.1100,low,fair
+south of minas,Bourbon,Natural / Dry,0.1100,low,fair
+south of minas,Bourbon,Natural / Dry,0.0700,mid,great
+south of minas,Bourbon,Natural / Dry,0.1100,low,great
+south of minas,Bourbon,Natural / Dry,0.1100,low,good
+south of minas,Bourbon,Natural / Dry,0.1100,low,fair
+south of minas,Bourbon,Natural / Dry,0.1100,low,good
+south of minas,Bourbon,Natural / Dry,0.1100,low,poor
+south of minas,Bourbon,Natural / Dry,0.1200,mid,great
+south of minas,Bourbon,Natural / Dry,0.1100,mid,great
+south of minas,Bourbon,Natural / Dry,0.0200,low,great
+south of minas,Bourbon,Natural / Dry,0.0000,low,good
+south of minas,Bourbon,Natural / Dry,0.1100,low,good
+south of minas,Bourbon,Natural / Dry,0.0000,low,poor
+south of minas,Bourbon,Natural / Dry,0.1100,low,good
+south of minas,Bourbon,Natural / Dry,0.1100,low,great
+south of minas,Bourbon,Natural / Dry,0.1100,low,good
+south of minas,Bourbon,Natural / Dry,0.1100,low,good
+south of minas,Bourbon,Natural / Dry,0.1100,low,fair
+south of minas,Bourbon,Natural / Dry,0.0200,low,good
+south of minas,Bourbon,Natural / Dry,0.0000,low,fair
+south of minas,Bourbon,Natural / Dry,0.1100,low,good
+south of minas,Bourbon,Natural / Dry,0.1100,low,good
+south of minas,Bourbon,Natural / Dry,0.0000,low,good
+south of minas,Bourbon,Semi-washed / Semi-pulped,0.1100,mid,great
+south of minas,Bourbon,Semi-washed / Semi-pulped,0.1100,mid,great
+south of minas,Bourbon,Semi-washed / Semi-pulped,0.0000,mid,good
+south of minas,Bourbon,Semi-washed / Semi-pulped,0.1200,mid,good
+south of minas,Bourbon,Semi-washed / Semi-pulped,0.1200,low,fair
+south of minas,Bourbon,Semi-washed / Semi-pulped,0.0000,mid,poor
+south of minas,Bourbon,Washed / Wet,0.1000,mid,fair
+south of minas,Bourbon,Washed / Wet,0.0000,mid,great
+south of minas,Catuai,Natural / Dry,0.1200,low,great
+south of minas,Catuai,Semi-washed / Semi-pulped,0.1200,low,good
+south of minas,Catuai,Semi-washed / Semi-pulped,0.1000,mid,great
+south of minas,Catuai,Semi-washed / Semi-pulped,0.1200,low,good
+south of minas,Mundo Novo,Natural / Dry,0.0000,low,fair
+south of minas,Mundo Novo,Natural / Dry,0.1200,low,fair
+south of minas,Mundo Novo,Natural / Dry,0.1200,low,good
+south of minas,Mundo Novo,Natural / Dry,0.1200,low,poor
+south of minas,Mundo Novo,Semi-washed / Semi-pulped,0.1200,low,fair
+south of minas,Mundo Novo,Semi-washed / Semi-pulped,0.1200,low,fair
+south of minas,Mundo Novo,Washed / Wet,0.1100,low,good
+south of minas,Yellow Bourbon,Natural / Dry,0.0000,low,fair
+south of minas,Yellow Bourbon,Natural / Dry,0.0000,low,great
+south of minas,Yellow Bourbon,Natural / Dry,0.0000,mid,poor
+south of minas,Yellow Bourbon,Natural / Dry,0.0000,low,good
+south of minas,Yellow Bourbon,Natural / Dry,0.0000,low,good
+south of minas,Yellow Bourbon,Natural / Dry,0.0000,low,poor
+south of minas,Yellow Bourbon,Natural / Dry,0.1000,mid,fair
+south of minas,Yellow Bourbon,Natural / Dry,0.0000,low,good
+south of minas,Yellow Bourbon,Natural / Dry,0.0000,low,good
+south of minas,Yellow Bourbon,Natural / Dry,0.0000,low,poor
+south of minas,Yellow Bourbon,Natural / Dry,0.0000,low,good
+south of minas,Yellow Bourbon,Natural / Dry,0.0000,low,fair
+south of minas,Yellow Bourbon,Natural / Dry,0.0800,low,great
+south of minas,Yellow Bourbon,Natural / Dry,0.0100,low,great
+south of minas,Yellow Bourbon,Natural / Dry,0.1000,mid,great
+south of minas,Yellow Bourbon,Natural / Dry,0.0000,low,good
+south of minas,Yellow Bourbon,Pulped natural / honey,0.1100,low,good
+south of minas,Yellow Bourbon,Pulped natural / honey,0.1100,low,fair
+south of minas,Yellow Bourbon,Pulped natural / honey,0.1100,low,good
+south of minas,Yellow Bourbon,Semi-washed / Semi-pulped,0.1200,mid,good
+south of minas,Yellow Bourbon,Semi-washed / Semi-pulped,0.1100,mid,fair
+south of minas,Yellow Bourbon,Semi-washed / Semi-pulped,0.0000,mid,fair
+south of minas,Yellow Bourbon,Washed / Wet,0.1200,mid,fair
+vale da grama,Bourbon,Natural / Dry,0.1200,mid,great
+vale da grama,Bourbon,Semi-washed / Semi-pulped,0.1200,mid,great
+vale da grama,Yellow Bourbon,Natural / Dry,0.0000,mid,great
+vale da grama,Yellow Bourbon,Semi-washed / Semi-pulped,0.1100,mid,poor
+kayanza,Bourbon,Washed / Wet,0.0000,high,good
+dehong prefecture,Catimor,Washed / Wet,0.1000,mid,good
+menglian,Catimor,Washed / Wet,0.1100,mid,good
+xishuangbanna prefecture,Catimor,Pulped natural / honey,0.1200,mid,good
+yunnan,Catimor,Natural / Dry,0.1000,low,fair
+yunnan,Catimor,Natural / Dry,0.1000,high,great
+yunnan,Catimor,Natural / Dry,0.1000,mid,great
+yunnan,Catimor,Washed / Wet,0.1000,mid,great
+yunnan,Catimor,Washed / Wet,0.1000,high,great
+yunnan,Catimor,Washed / Wet,0.1000,mid,fair
+yunnan,Catimor,Washed / Wet,0.1000,high,good
+yunnan,Catimor,Washed / Wet,0.1000,low,good
+yunnan,Catimor,Washed / Wet,0.1100,mid,good
+yunnan,Other,Washed / Wet,0.0000,low,great
+yunnan,Other,Washed / Wet,0.1700,high,poor
+yunnan,Typica,Washed / Wet,0.0000,high,poor
+yunnan,Typica,Washed / Wet,0.1000,mid,poor
+antioquia,Caturra,Washed / Wet,0.1000,mid,poor
+antioquia,Caturra,Washed / Wet,0.1000,mid,poor
+antioquia,Other,Washed / Wet,0.1100,mid,good
+cauca,Caturra,Washed / Wet,0.1100,high,fair
+cauca,Caturra,Washed / Wet,0.1100,high,great
+cauca,Other,Washed / Wet,0.1200,high,good
+cauca,Other,Washed / Wet,0.1200,high,good
+cundinamarca,Caturra,Natural / Dry,0.1100,high,great
+cundinamarca,Caturra,Natural / Dry,0.0000,mid,good
+cundinamarca,Caturra,Natural / Dry,0.1100,high,good
+cundinamarca,Caturra,Washed / Wet,0.0000,high,good
+cundinamarca,Caturra,Washed / Wet,0.0000,high,good
+cundinamarca,Caturra,Washed / Wet,0.1100,mid,good
+cundinamarca,Caturra,Washed / Wet,0.0000,high,good
+cundinamarca,Caturra,Washed / Wet,0.0000,mid,fair
+eje cafetero,Caturra,Natural / Dry,0.0000,mid,good
+guayata,Caturra,Washed / Wet,0.1100,mid,good
+guayata,Caturra,Washed / Wet,0.1100,mid,good
+guayata,Caturra,Washed / Wet,0.0000,mid,fair
+huila,Caturra,Natural / Dry,0.1100,high,fair
+huila,Caturra,Natural / Dry,0.0000,low,good
+huila,Caturra,Natural / Dry,0.1200,low,good
+huila,Caturra,Natural / Dry,0.0000,low,good
+huila,Caturra,Natural / Dry,0.0000,high,fair
+huila,Caturra,Natural / Dry,0.1100,low,good
+huila,Caturra,Natural / Dry,0.1200,low,good
+huila,Caturra,Natural / Dry,0.0000,low,poor
+huila,Caturra,Natural / Dry,0.0000,low,good
+huila,Caturra,Washed / Wet,0.1100,high,fair
+huila,Caturra,Washed / Wet,0.0000,high,good
+huila,Caturra,Washed / Wet,0.1100,high,good
+huila,Caturra,Washed / Wet,0.1100,high,good
+huila,Caturra,Washed / Wet,0.1100,high,poor
+huila,Caturra,Washed / Wet,0.1100,high,fair
+huila,Caturra,Washed / Wet,0.1100,high,fair
+huila,Caturra,Washed / Wet,0.1100,high,fair
+huila,Caturra,Washed / Wet,0.1100,high,fair
+huila,Caturra,Washed / Wet,0.1100,high,fair
+huila,Caturra,Washed / Wet,0.1100,high,fair
+huila,Caturra,Washed / Wet,0.0000,high,good
+huila,Caturra,Washed / Wet,0.0000,high,fair
+huila,Caturra,Washed / Wet,0.1200,high,fair
+huila,Caturra,Washed / Wet,0.1100,high,poor
+huila,Caturra,Washed / Wet,0.0000,high,poor
+huila,Caturra,Washed / Wet,0.0000,high,good
+huila,Caturra,Washed / Wet,0.1100,high,poor
+huila,Caturra,Washed / Wet,0.1100,high,good
+huila,Caturra,Washed / Wet,0.1100,low,great
+huila,Caturra,Washed / Wet,0.0000,high,good
+huila,Caturra,Washed / Wet,0.0000,high,good
+huila,Caturra,Washed / Wet,0.1100,high,good
+huila,Caturra,Washed / Wet,0.1100,high,good
+huila,Caturra,Washed / Wet,0.0000,high,good
+huila,Caturra,Washed / Wet,0.1100,high,good
+huila,Caturra,Washed / Wet,0.1100,high,good
+huila,Caturra,Washed / Wet,0.1200,high,good
+huila,Caturra,Washed / Wet,0.1100,high,good
+huila,Caturra,Washed / Wet,0.1200,high,good
+huila,Caturra,Washed / Wet,0.1100,high,good
+huila,Caturra,Washed / Wet,0.0000,high,good
+huila,Caturra,Washed / Wet,0.1100,high,good
+huila,Caturra,Washed / Wet,0.1100,high,good
+huila,Caturra,Washed / Wet,0.0000,low,good
+huila,Caturra,Washed / Wet,0.1100,low,good
+huila,Caturra,Washed / Wet,0.1200,high,good
+huila,Caturra,Washed / Wet,0.0000,high,fair
+huila,Caturra,Washed / Wet,0.0000,high,good
+huila,Caturra,Washed / Wet,0.0000,high,good
+huila,Caturra,Washed / Wet,0.1100,high,fair
+huila,Caturra,Washed / Wet,0.1200,low,good
+huila,Caturra,Washed / Wet,0.0000,high,fair
+huila,Caturra,Washed / Wet,0.1100,high,fair
+huila,Caturra,Washed / Wet,0.1100,high,good
+huila,Caturra,Washed / Wet,0.0000,high,fair
+huila,Caturra,Washed / Wet,0.1100,high,fair
+huila,Caturra,Washed / Wet,0.0000,high,fair
+huila,Caturra,Washed / Wet,0.1100,high,fair
+huila,Caturra,Washed / Wet,0.0000,high,good
+huila,Caturra,Washed / Wet,0.1100,high,good
+huila,Caturra,Washed / Wet,0.1100,high,fair
+huila,Caturra,Washed / Wet,0.0000,high,fair
+huila,Caturra,Washed / Wet,0.0000,high,fair
+huila,Caturra,Washed / Wet,0.0000,high,poor
+huila,Caturra,Washed / Wet,0.0000,high,great
+huila,Caturra,Washed / Wet,0.0000,high,great
+huila,Caturra,Washed / Wet,0.0000,high,great
+huila,Caturra,Washed / Wet,0.1200,high,great
+huila,Caturra,Washed / Wet,0.1100,high,great
+huila,Caturra,Washed / Wet,0.0000,high,great
+huila,Caturra,Washed / Wet,0.0000,high,good
+huila,Caturra,Washed / Wet,0.0000,high,great
+huila,Caturra,Washed / Wet,0.1100,high,good
+huila,Caturra,Washed / Wet,0.0000,high,good
+huila,Caturra,Washed / Wet,0.0000,high,good
+huila,Caturra,Washed / Wet,0.0000,high,good
+huila,Caturra,Washed / Wet,0.1100,high,good
+huila,Caturra,Washed / Wet,0.1200,high,good
+huila,Caturra,Washed / Wet,0.0000,high,good
+huila,Caturra,Washed / Wet,0.0000,high,fair
+huila,Caturra,Washed / Wet,0.0000,high,good
+huila,Caturra,Washed / Wet,0.0000,low,fair
+huila,Caturra,Washed / Wet,0.0000,high,good
+huila,Caturra,Washed / Wet,0.1200,high,good
+huila,Caturra,Washed / Wet,0.0000,high,good
+huila,Other,Washed / Wet,0.1200,mid,fair
+huila,Other,Washed / Wet,0.1100,mid,good
+huila,Other,Washed / Wet,0.0000,mid,fair
+huila,Other,Washed / Wet,0.0000,mid,good
+huila,Typica,Washed / Wet,0.1200,low,fair
+huila supremo,Caturra,Washed / Wet,0.0000,high,good
+la plata,Caturra,Washed / Wet,0.1100,high,good
+la plata,Caturra,Washed / Wet,0.1200,high,good
+nariño,Caturra,Natural / Dry,0.1100,high,good
+nariño,Caturra,Washed / Wet,0.0000,high,good
+pasto,Caturra,Natural / Dry,0.0000,high,great
+pereira,Caturra,Washed / Wet,0.0000,mid,poor
+pitalito,Caturra,Natural / Dry,0.0000,low,good
+pitalito,Caturra,Natural / Dry,0.1100,low,good
+pitalito,Caturra,Natural / Dry,0.1100,low,good
+pitalito,Caturra,Natural / Dry,0.0000,low,good
+santander,Caturra,Natural / Dry,0.1200,mid,great
+santander,Caturra,Natural / Dry,0.1200,mid,fair
+santander,Caturra,Natural / Dry,0.1200,mid,great
+santander,Caturra,Natural / Dry,0.0000,mid,fair
+santander,Caturra,Washed / Wet,0.1200,mid,good
+santander,Caturra,Washed / Wet,0.0000,mid,good
+santander,Caturra,Washed / Wet,0.1100,high,good
+santander,Caturra,Washed / Wet,0.1100,mid,great
+santander,Caturra,Washed / Wet,0.0000,mid,great
+santander,Caturra,Washed / Wet,0.0000,mid,good
+santander,Other,Washed / Wet,0.0000,mid,good
+santander,Typica,Natural / Dry,0.0000,high,fair
+south huila,Caturra,Washed / Wet,0.0000,high,good
+tolima,Caturra,Washed / Wet,0.1200,mid,great
+brunca,Catuai,Washed / Wet,0.1000,low,fair
+central valley,Catuai,Washed / Wet,0.1100,mid,fair
+central valley,Catuai,Washed / Wet,0.1000,mid,poor
+central valley,Catuai,Washed / Wet,0.1100,mid,poor
+central valley,Catuai,Washed / Wet,0.1000,mid,fair
+central valley,Catuai,Washed / Wet,0.1100,mid,good
+central valley,Catuai,Washed / Wet,0.1000,mid,poor
+central valley,Catuai,Washed / Wet,0.1100,mid,good
+naranjo,Caturra,Washed / Wet,0.1300,mid,poor
+occidental,Caturra,Washed / Wet,0.1200,mid,poor
+occidental,Caturra,Washed / Wet,0.1200,mid,poor
+occidental,Caturra,Washed / Wet,0.1100,mid,poor
+san ramon,Caturra,Washed / Wet,0.1100,mid,poor
+san ramon,Caturra,Washed / Wet,0.1100,mid,great
+san ramon,Caturra,Washed / Wet,0.1000,mid,good
+san ramon,Caturra,Washed / Wet,0.1200,mid,good
+tarrazu,Catuai,Pulped natural / honey,0.1100,high,fair
+tarrazu,Catuai,Pulped natural / honey,0.0000,high,poor
+tarrazu,Catuai,Washed / Wet,0.0000,mid,poor
+tarrazu,Catuai,Washed / Wet,0.1200,high,great
+tarrazu,Catuai,Washed / Wet,0.1000,mid,good
+tarrazu,Caturra,Washed / Wet,0.1200,high,great
+tarrazu,Caturra,Washed / Wet,0.1100,high,great
+tarrazu,Caturra,Washed / Wet,0.1000,mid,great
+tarrazu,Caturra,Washed / Wet,0.0900,high,good
+tarrazu,Caturra,Washed / Wet,0.0000,high,good
+tarrazu,Caturra,Washed / Wet,0.0000,high,good
+tarrazu,Caturra,Washed / Wet,0.1100,high,poor
+tarrazu,Caturra,Washed / Wet,0.1100,low,fair
+tarrazu,Caturra,Washed / Wet,0.0000,high,fair
+tarrazu,Caturra,Washed / Wet,0.0900,high,fair
+tarrazu,Caturra,Washed / Wet,0.0900,high,fair
+tarrazu,Caturra,Washed / Wet,0.1000,high,fair
+tres rios,Bourbon,Semi-washed / Semi-pulped,0.1200,mid,great
+tres rios,Caturra,Washed / Wet,0.0000,mid,fair
+tres rios,Caturra,Washed / Wet,0.0900,mid,fair
+tres rios,Caturra,Washed / Wet,0.1100,mid,fair
+turrialba,Caturra,Washed / Wet,0.1200,low,fair
+turrialba,Caturra,Washed / Wet,0.1100,low,poor
+valle central,Caturra,Washed / Wet,0.1000,mid,good
+west and central valley,Caturra,Washed / Wet,0.0000,mid,great
+west valley,Catuai,Washed / Wet,0.1100,mid,good
+west valley,Caturra,Washed / Wet,0.0000,mid,great
+apaneca,Bourbon,Natural / Dry,0.1100,mid,great
+apaneca,Bourbon,Washed / Wet,0.1000,mid,great
+apaneca,Bourbon,Washed / Wet,0.0000,mid,great
+apaneca,Bourbon,Washed / Wet,0.1200,mid,good
+apaneca,Bourbon,Washed / Wet,0.0000,mid,poor
+apaneca,Bourbon,Washed / Wet,0.1100,mid,fair
+apaneca,Bourbon,Washed / Wet,0.0000,mid,fair
+apaneca,Bourbon,Washed / Wet,0.0000,mid,fair
+"ataco, apaneca - ilamatepec mountain range",Bourbon,Semi-washed / Semi-pulped,0.1100,mid,great
+cacahuatique,Bourbon,Washed / Wet,0.0000,mid,poor
+cacahuatique,Bourbon,Washed / Wet,0.0000,mid,good
+"department of ahuachapan, municipality of apanecallamatepec mountain",Bourbon,Washed / Wet,0.0000,mid,poor
+"el balsamo, quezaltepec",Bourbon,Washed / Wet,0.1100,mid,good
+"el balsamo, quezaltepec",Pacas,Washed / Wet,0.0000,mid,good
+"el balsamo, quezaltepec",Pacas,Washed / Wet,0.0000,mid,good
+"ethiopia, sidamo",Other,Natural / Dry,0.0900,high,great
+guji-hambela,Ethiopian Heirlooms,Washed / Wet,0.1200,high,great
+guji-hambela,Ethiopian Heirlooms,Washed / Wet,0.1200,high,great
+guji-hambela,Ethiopian Heirlooms,Washed / Wet,0.1200,high,great
+guji-hambela,Ethiopian Heirlooms,Washed / Wet,0.0000,high,good
+kafa,Gesha,Natural / Dry,0.1000,high,great
+kafa,Gesha,Natural / Dry,0.1000,high,great
+oromia,oromia,Natural / Dry,0.1100,high,great
+oromia,oromia,Natural / Dry,0.0300,high,great
+oromia,oromia,Natural / Dry,0.0300,high,great
+oromia,oromia,Natural / Dry,0.1000,high,great
+oromia,oromia,Natural / Dry,0.0500,high,great
+oromia,oromia,Natural / Dry,0.1000,high,great
+oromia,oromia,Natural / Dry,0.1200,high,great
+oromia,oromia,Natural / Dry,0.1200,high,good
+oromia,oromia,Natural / Dry,0.1000,mid,good
+oromia,oromia,Washed / Wet,0.1000,high,great
+oromia,oromia,Washed / Wet,0.1000,high,great
+sidamo,Gesha,Natural / Dry,0.1100,high,good
+sidamo,yirgacheffe,Natural / Dry,0.0100,high,great
+sidamo,yirgacheffe,Natural / Dry,0.1000,high,great
+sidamo,yirgacheffe,Natural / Dry,0.1000,high,great
+sidamo,yirgacheffe,Natural / Dry,0.2000,high,good
+sidamo,yirgacheffe,Natural / Dry,0.0900,mid,good
+yirgacheffe,yirgacheffe,Washed / Wet,0.1000,high,great
+yirgacheffe,yirgacheffe,Washed / Wet,0.0000,high,good
+acatenango,Bourbon,Washed / Wet,0.1200,mid,great
+acatenango,Bourbon,Washed / Wet,0.1000,mid,great
+acatenango,Bourbon,Washed / Wet,0.1200,mid,great
+"aldea xeucalvitz, ixil region, quiche department",Bourbon,Washed / Wet,0.1000,mid,good
+antigua,Bourbon,Washed / Wet,0.1100,mid,good
+antigua,Bourbon,Washed / Wet,0.1100,mid,good
+antigua,Bourbon,Washed / Wet,0.1100,mid,good
+antigua,Bourbon,Washed / Wet,0.1000,mid,good
+antigua,Bourbon,Washed / Wet,0.1000,mid,fair
+antigua,Bourbon,Washed / Wet,0.1000,mid,good
+antigua,Bourbon,Washed / Wet,0.1100,mid,fair
+antigua,Bourbon,Washed / Wet,0.1100,mid,fair
+antigua,Caturra,Natural / Dry,0.1000,mid,great
+antigua,Caturra,Washed / Wet,0.1000,mid,good
+antigua,Caturra,Washed / Wet,0.1000,mid,good
+antigua,Caturra,Washed / Wet,0.1100,mid,good
+antigua,Caturra,Washed / Wet,0.1100,mid,good
+antigua,Caturra,Washed / Wet,0.1100,mid,good
+atitlan,Bourbon,Washed / Wet,0.0900,mid,fair
+atitlan,Caturra,Washed / Wet,0.1000,mid,fair
+atitlan,Caturra,Washed / Wet,0.1000,mid,good
+atitlan,Caturra,Washed / Wet,0.1000,mid,fair
+el progreso,Bourbon,Washed / Wet,0.1200,low,good
+el progreso,Bourbon,Washed / Wet,0.1200,low,fair
+"el tumbador, san marcos",Catuai,Washed / Wet,0.1100,mid,good
+huehuetenango,Bourbon,Natural / Dry,0.1100,mid,fair
+huehuetenango,Bourbon,Washed / Wet,0.1200,high,fair
+huehuetenango,Bourbon,Washed / Wet,0.1000,mid,fair
+huehuetenango,Bourbon,Washed / Wet,0.1100,high,good
+huehuetenango,Bourbon,Washed / Wet,0.1000,high,fair
+huehuetenango,Bourbon,Washed / Wet,0.1100,high,great
+huehuetenango,Caturra,Washed / Wet,0.0000,mid,great
+huehuetenango,Caturra,Washed / Wet,0.1000,low,great
+huehuetenango,Caturra,Washed / Wet,0.1100,mid,good
+huehuetenango,Caturra,Washed / Wet,0.1200,high,great
+huehuetenango,Caturra,Washed / Wet,0.1100,mid,good
+huehuetenango,Caturra,Washed / Wet,0.1200,high,poor
+huehuetenango,Pacamara,Natural / Dry,0.1100,high,good
+huehuetenango,Pacamara,Washed / Wet,0.0900,high,fair
+jalapa,Bourbon,Washed / Wet,0.1100,high,good
+jalapa,Bourbon,Washed / Wet,0.1100,high,fair
+jalapa,Pacas,Washed / Wet,0.1300,mid,fair
+jalapa,Pacas,Washed / Wet,0.1200,mid,good
+jalapa,Pacas,Washed / Wet,0.1100,mid,great
+jalapa,Pacas,Washed / Wet,0.1200,mid,fair
+"la reforma, san marcos",Bourbon,Washed / Wet,0.1000,mid,good
+norte,Bourbon,Washed / Wet,0.1000,high,fair
+norte,Bourbon,Washed / Wet,0.0900,high,poor
+norte,Bourbon,Washed / Wet,0.1000,high,great
+nuevo oriente,Catuai,Washed / Wet,0.1000,mid,great
+nuevo oriente,Catuai,Washed / Wet,0.1100,mid,good
+nuevo oriente,Catuai,Washed / Wet,0.1100,mid,good
+nuevo oriente,Catuai,Washed / Wet,0.1100,mid,poor
+nuevo oriente,Catuai,Washed / Wet,0.1000,mid,poor
+nuevo oriente,Pacas,Washed / Wet,0.1100,mid,fair
+nuevo oriente,Pacas,Washed / Wet,0.1100,high,good
+occidente,Bourbon,Washed / Wet,0.1100,mid,poor
+orient,Caturra,Washed / Wet,0.1100,mid,poor
+oriente,Bourbon,Natural / Dry,0.1000,mid,great
+oriente,Bourbon,Natural / Dry,0.1000,mid,good
+oriente,Bourbon,other,0.1000,mid,great
+oriente,Bourbon,other,0.1000,mid,great
+oriente,Bourbon,Washed / Wet,0.1100,mid,great
+oriente,Bourbon,Washed / Wet,0.0900,mid,great
+oriente,Bourbon,Washed / Wet,0.1100,mid,great
+oriente,Bourbon,Washed / Wet,0.1100,mid,good
+oriente,Bourbon,Washed / Wet,0.1000,mid,great
+oriente,Bourbon,Washed / Wet,0.1100,mid,great
+oriente,Bourbon,Washed / Wet,0.1200,mid,good
+oriente,Bourbon,Washed / Wet,0.1100,mid,good
+oriente,Bourbon,Washed / Wet,0.1100,mid,great
+oriente,Bourbon,Washed / Wet,0.1000,mid,good
+oriente,Bourbon,Washed / Wet,0.0000,mid,fair
+oriente,Bourbon,Washed / Wet,0.1100,mid,fair
+oriente,Bourbon,Washed / Wet,0.1100,mid,good
+oriente,Bourbon,Washed / Wet,0.1100,mid,good
+oriente,Bourbon,Washed / Wet,0.1000,high,good
+oriente,Bourbon,Washed / Wet,0.1200,high,good
+oriente,Bourbon,Washed / Wet,0.1100,mid,great
+oriente,Bourbon,Washed / Wet,0.0000,mid,fair
+oriente,Bourbon,Washed / Wet,0.1000,low,fair
+oriente,Bourbon,Washed / Wet,0.1100,mid,good
+oriente,Bourbon,Washed / Wet,0.1200,mid,poor
+oriente,Bourbon,Washed / Wet,0.1200,mid,poor
+oriente,Bourbon,Washed / Wet,0.1100,mid,poor
+oriente,Bourbon,Washed / Wet,0.1000,high,good
+oriente,Bourbon,Washed / Wet,0.1100,mid,poor
+oriente,Bourbon,Washed / Wet,0.1100,mid,good
+oriente,Bourbon,Washed / Wet,0.1100,mid,good
+oriente,Bourbon,Washed / Wet,0.1000,mid,good
+oriente,Bourbon,Washed / Wet,0.1000,mid,fair
+oriente,Bourbon,Washed / Wet,0.1000,mid,fair
+oriente,Bourbon,Washed / Wet,0.1200,mid,fair
+oriente,Bourbon,Washed / Wet,0.1100,mid,good
+oriente,Bourbon,Washed / Wet,0.1200,mid,fair
+oriente,Bourbon,Washed / Wet,0.1000,mid,good
+oriente,Bourbon,Washed / Wet,0.0000,mid,poor
+oriente,Bourbon,Washed / Wet,0.1000,high,fair
+oriente,Bourbon,Washed / Wet,0.1100,mid,poor
+oriente,Bourbon,Washed / Wet,0.1100,mid,poor
+oriente,Bourbon,Washed / Wet,0.1000,mid,fair
+oriente,Bourbon,Washed / Wet,0.1100,mid,poor
+oriente,Bourbon,Washed / Wet,0.1000,mid,poor
+oriente,Bourbon,Washed / Wet,0.1200,mid,poor
+oriente,Bourbon,Washed / Wet,0.1100,mid,poor
+oriente,Bourbon,Washed / Wet,0.1100,mid,poor
+oriente,Bourbon,Washed / Wet,0.1100,mid,poor
+oriente,Bourbon,Washed / Wet,0.1100,mid,poor
+oriente,Bourbon,Washed / Wet,0.1100,mid,poor
+oriente,Bourbon,Washed / Wet,0.1100,mid,good
+oriente,Bourbon,Washed / Wet,0.1100,mid,poor
+oriente,Caturra,Natural / Dry,0.1100,mid,great
+oriente,Caturra,Washed / Wet,0.1100,mid,poor
+oriente,Caturra,Washed / Wet,0.1200,mid,poor
+oriente,Caturra,Washed / Wet,0.1200,mid,good
+oriente,Other,Washed / Wet,0.1000,mid,poor
+oriente,Other,Washed / Wet,0.1200,mid,poor
+oriente,Other,Washed / Wet,0.1200,mid,poor
+oriente,Other,Washed / Wet,0.1000,mid,poor
+oriente,Other,Washed / Wet,0.1000,mid,poor
+oriente,Other,Washed / Wet,0.1000,mid,poor
+oriente,Other,Washed / Wet,0.1200,mid,fair
+oriente,Other,Washed / Wet,0.1100,mid,poor
+quetzaltenango,Caturra,Washed / Wet,0.1100,mid,good
+"sacatepequez, guatemala",Caturra,Washed / Wet,0.1000,mid,fair
+"sacatepequez, guatemala",Caturra,Washed / Wet,0.1100,mid,poor
+"san lucas toliman, solola",Bourbon,Washed / Wet,0.1000,mid,fair
+"san lucas toliman, solola",Bourbon,Washed / Wet,0.1200,mid,poor
+san marcos,Bourbon,Washed / Wet,0.1100,high,fair
+san marcos,Bourbon,Washed / Wet,0.1000,high,fair
+san marcos,Bourbon,Washed / Wet,0.1000,high,good
+san marcos,Bourbon,Washed / Wet,0.1300,high,great
+san marcos,Bourbon,Washed / Wet,0.1100,high,good
+san marcos,Bourbon,Washed / Wet,0.1100,high,good
+san marcos,Bourbon,Washed / Wet,0.1000,high,fair
+san marcos,Bourbon,Washed / Wet,0.1200,high,good
+san marcos,Bourbon,Washed / Wet,0.1000,high,poor
+san marcos,Bourbon,Washed / Wet,0.1000,high,good
+san marcos,Catuai,Washed / Wet,0.1000,mid,poor
+san marcos,Catuai,Washed / Wet,0.0900,mid,great
+santa rosa,Bourbon,Washed / Wet,0.1200,mid,poor
+santa rosa,Bourbon,Washed / Wet,0.1000,mid,good
+santa rosa,Bourbon,Washed / Wet,0.1000,mid,fair
+santa rosa,Bourbon,Washed / Wet,0.1000,mid,fair
+santa rosa,Bourbon,Washed / Wet,0.1100,mid,fair
+santa rosa,Caturra,Washed / Wet,0.1000,low,good
+santa rosa,Caturra,Washed / Wet,0.1100,high,good
+santa rosa,Caturra,Washed / Wet,0.1000,mid,poor
+solola,Caturra,Washed / Wet,0.1000,mid,great
+"department d'artibonite , haiti",Typica,Natural / Dry,0.1400,low,poor
+"dondon, haiti",Blue Mountain,Washed / Wet,0.1100,low,poor
+"dondon, haiti",Typica,Washed / Wet,0.1000,low,poor
+haiti,Typica,Washed / Wet,0.1200,low,poor
+"thiotte, haiti",Typica,Washed / Wet,0.1100,mid,fair
+central region,Catuai,Natural / Dry,0.1300,mid,poor
+central region,Catuai,Natural / Dry,0.1300,mid,poor
+central region,Catuai,Washed / Wet,0.1100,mid,great
+comayagua,Caturra,Natural / Dry,0.1000,mid,fair
+comayagua,Caturra,Natural / Dry,0.1100,mid,good
+comayagua,Caturra,Natural / Dry,0.0900,mid,fair
+comayagua,Caturra,Natural / Dry,0.1000,mid,fair
+comayagua,Caturra,Natural / Dry,0.1000,mid,poor
+comayagua,Caturra,Natural / Dry,0.1000,mid,poor
+comayagua,Caturra,Washed / Wet,0.1000,mid,fair
+comayagua,Caturra,Washed / Wet,0.1100,mid,fair
+comayagua,Caturra,Washed / Wet,0.1000,mid,fair
+comayagua,Caturra,Washed / Wet,0.1000,mid,great
+comayagua,Caturra,Washed / Wet,0.1000,mid,good
+comayagua,Caturra,Washed / Wet,0.1000,mid,good
+comayagua,Caturra,Washed / Wet,0.1100,mid,fair
+comayagua,Caturra,Washed / Wet,0.1200,mid,fair
+"comayagua, honduras",Other,Washed / Wet,0.1200,mid,good
+el paraíso,Caturra,Washed / Wet,0.1200,mid,fair
+guinope el paraíso,Caturra,Natural / Dry,0.1000,mid,fair
+intibuca,Pacas,Natural / Dry,0.1100,mid,poor
+intibuca,Pacas,Natural / Dry,0.1100,mid,poor
+intibuca,Pacas,Washed / Wet,0.1100,mid,poor
+intibuca,Pacas,Washed / Wet,0.1100,mid,poor
+marcala,Catuai,Washed / Wet,0.1100,mid,poor
+marcala,Catuai,Washed / Wet,0.1000,mid,poor
+marcala,Catuai,Washed / Wet,0.1000,mid,poor
+marcala,Catuai,Washed / Wet,0.1000,mid,poor
+marcala,Catuai,Washed / Wet,0.1100,mid,fair
+marcala,Catuai,Washed / Wet,0.1100,mid,fair
+marcala,Catuai,Washed / Wet,0.1200,mid,fair
+marcala,Catuai,Washed / Wet,0.1100,mid,fair
+marcala,Catuai,Washed / Wet,0.1200,mid,poor
+marcala,Catuai,Washed / Wet,0.0900,mid,fair
+marcala,Catuai,Washed / Wet,0.1200,mid,poor
+marcala,Catuai,Washed / Wet,0.0900,mid,poor
+marcala,Catuai,Washed / Wet,0.1100,mid,good
+marcala,Catuai,Washed / Wet,0.1100,mid,good
+occidental,Caturra,Washed / Wet,0.1100,mid,poor
+occidental,Caturra,Washed / Wet,0.1100,mid,poor
+ocotepeque,Catuai,Washed / Wet,0.1100,high,poor
+ocotepeque,Catuai,Washed / Wet,0.1100,high,poor
+san marcos,Catuai,Natural / Dry,0.1000,mid,fair
+san marcos,Catuai,Washed / Wet,0.1200,mid,poor
+san marcos,Caturra,Natural / Dry,0.1200,mid,poor
+"siguatepeque, comayagua",Caturra,Natural / Dry,0.1100,mid,poor
+western region,Catimor,Washed / Wet,0.1100,mid,fair
+aceh,Typica,Semi-washed / Semi-pulped,0.1300,mid,good
+aceh gayo,Bourbon,Washed / Wet,0.1500,mid,fair
+bali,Other,Washed / Wet,0.1100,mid,good
+bener meriah,Sumatra,Semi-washed / Semi-pulped,0.1300,mid,good
+east java,Typica,Washed / Wet,0.1200,mid,good
+ijen,Java,Washed / Wet,0.1300,mid,poor
+ijen,Other,Washed / Wet,0.1200,mid,poor
+indonesia,Other,Natural / Dry,0.1200,high,poor
+lington nihuta,Typica,other,0.1100,mid,fair
+lintong,Sumatra Lintong,Semi-washed / Semi-pulped,0.1100,mid,great
+sapan toraja,Sulawesi,Wet Hulling,0.1200,mid,good
+sulawesi,Sulawesi,Wet Hulling,0.0300,mid,great
+sumatra brastagi,Mandheling,other,0.0000,mid,good
+sumatra brastagi,Mandheling,Semi-washed / Semi-pulped,0.1300,mid,fair
+"temanggung, indonesia",Java,Washed / Wet,0.1200,mid,great
+blend,SL34,Washed / Wet,0.0000,mid,great
+central kenya,SL28,Washed / Wet,0.0000,high,good
+central kenya,SL34,Washed / Wet,0.0000,mid,great
+central kenya,SL34,Washed / Wet,0.0000,mid,great
+central kenya,SL34,Washed / Wet,0.0000,mid,great
+kenya,SL28,Washed / Wet,0.0800,low,good
+kenya,SL28,Washed / Wet,0.1000,low,good
+kiambu,SL28,Washed / Wet,0.1100,mid,good
+kiambu,SL28,Washed / Wet,0.1100,high,great
+kiambu,SL34,Washed / Wet,0.1100,mid,poor
+kirinyaga,SL28,Natural / Dry,0.1000,high,great
+meru county,SL28,Washed / Wet,0.1100,high,good
+muranga,SL34,Washed / Wet,0.1200,high,great
+nyeri,Peaberry,Washed / Wet,0.1000,high,great
+nyeri,SL28,Natural / Dry,0.1100,high,great
+nyeri,SL28,Washed / Wet,0.1100,high,great
+nyeri,SL28,Washed / Wet,0.1100,high,great
+nyeri,SL28,Washed / Wet,0.1100,high,good
+nyeri,SL28,Washed / Wet,0.1100,high,good
+nyeri,SL28,Washed / Wet,0.1000,high,good
+nyeri,SL34,Washed / Wet,0.1300,high,great
+nyeri,SL34,Washed / Wet,0.1100,high,good
+lao p.d.r.,Other,Washed / Wet,0.1200,mid,fair
+"paksong,laos",Catimor,Washed / Wet,0.1300,mid,good
+"paksong,laos",Catimor,Washed / Wet,0.0000,mid,poor
+kakoma,Gesha,Washed / Wet,0.1300,mid,fair
+mzuzu,Gesha,Washed / Wet,0.1300,low,fair
+mzuzu,Gesha,Washed / Wet,0.1200,mid,fair
+mzuzu,Gesha,Washed / Wet,0.1200,mid,poor
+mzuzu,Gesha,Washed / Wet,0.1300,mid,poor
+mzuzu,Gesha,Washed / Wet,0.1200,mid,good
+mzuzu,Gesha,Washed / Wet,0.1200,mid,good
+mzuzu,Gesha,Washed / Wet,0.1300,mid,fair
+mzuzu,Gesha,Washed / Wet,0.1300,high,fair
+southern- zomba,Caturra,Washed / Wet,0.1200,low,poor
+southern- zomba,Caturra,Washed / Wet,0.1200,low,poor
+adolfo lopez mateos,Typica,Washed / Wet,0.0000,low,good
+altotonga,Typica,Washed / Wet,0.1200,low,good
+amatenango de la frontera,Typica,Washed / Wet,0.1400,low,poor
+amatenango de la frontera,Typica,Washed / Wet,0.1200,mid,fair
+atoyac de alvarez,Typica,Natural / Dry,0.1100,low,fair
+atoyac de alvarez,Typica,Natural / Dry,0.1200,mid,great
+atoyac de alvarez,Typica,Semi-washed / Semi-pulped,0.1100,mid,great
+"calnali, hidalgo",Bourbon,Washed / Wet,0.1600,low,good
+"calnali, hidalgo",Caturra,Washed / Wet,0.1100,low,poor
+canoas,Typica,Washed / Wet,0.1000,low,fair
+"chapulhuacan, hidalgo",Typica,Semi-washed / Semi-pulped,0.1300,low,fair
+chiapas,Bourbon,Washed / Wet,0.1200,mid,fair
+chiapas,Bourbon,Washed / Wet,0.1200,mid,good
+chiapas,Bourbon,Washed / Wet,0.1200,mid,good
+chiapas,Bourbon,Washed / Wet,0.1200,mid,poor
+chiapas,Bourbon,Washed / Wet,0.1300,low,poor
+chiapas,Bourbon,Washed / Wet,0.1200,mid,poor
+chiapas,Catuai,Washed / Wet,0.1100,mid,fair
+chiapas,Caturra,Washed / Wet,0.1200,mid,good
+chiapas,Other,Washed / Wet,0.0000,mid,good
+chiapas,Typica,Washed / Wet,0.1200,mid,good
+chiapas,Typica,Washed / Wet,0.1200,mid,fair
+chiapas,Typica,Washed / Wet,0.1100,mid,good
+chiapas,Typica,Washed / Wet,0.1200,high,poor
+"chiapas, jaltenango",Caturra,Washed / Wet,0.1200,mid,good
+"chiapas, jaltenango",Caturra,Washed / Wet,0.1200,mid,good
+chilón,Typica,Semi-washed / Semi-pulped,0.1100,low,poor
+chilón,Typica,Semi-washed / Semi-pulped,0.1100,low,good
+"chocaman, veracruz",Typica,Washed / Wet,0.1400,mid,poor
+coatepec,Bourbon,Washed / Wet,0.1100,mid,good
+coatepec,Typica,Natural / Dry,0.1200,mid,poor
+coatepec,Typica,Semi-washed / Semi-pulped,0.1100,mid,great
+coatepec,Typica,Semi-washed / Semi-pulped,0.1200,mid,poor
+coatepec,Typica,Washed / Wet,0.1100,mid,poor
+coatepec,Typica,Washed / Wet,0.1200,mid,poor
+coatepec,Typica,Washed / Wet,0.1300,mid,poor
+coatepec,Typica,Washed / Wet,0.1300,low,poor
+coatepec,Typica,Washed / Wet,0.1200,mid,poor
+coatepec,Typica,Washed / Wet,0.1200,mid,poor
+coatepec,Typica,Washed / Wet,0.1100,low,good
+coatepec,Typica,Washed / Wet,0.1400,mid,good
+coatepec,Typica,Washed / Wet,0.1300,mid,good
+coatepec,Typica,Washed / Wet,0.1100,mid,fair
+"coatepec, coatepec",Mundo Novo,Washed / Wet,0.0000,mid,poor
+"coatepec, coatepec",Typica,Washed / Wet,0.1200,low,poor
+"coatepec, coatepec",Typica,Washed / Wet,0.1300,low,fair
+cofradia de suchitlan,Typica,Washed / Wet,0.1000,mid,good
+colima,Typica,Washed / Wet,0.1200,mid,good
+colima,Typica,Washed / Wet,0.1000,mid,good
+cordoba,Typica,Washed / Wet,0.1100,low,poor
+coscomatepec,Typica,Washed / Wet,0.1200,low,poor
+cuarenteño,Typica,Natural / Dry,0.1200,mid,good
+cuarenteño,Typica,Natural / Dry,0.1300,low,good
+"el desmoronado, talpan de allende jalisco",Typica,Washed / Wet,0.1200,mid,poor
+el remudadero,Typica,Washed / Wet,0.1300,mid,good
+escuitla,Typica,Washed / Wet,0.1400,mid,poor
+fln mirador,Typica,Washed / Wet,0.1200,mid,fair
+fortín de las flores,Bourbon,Washed / Wet,0.1200,low,fair
+fortín de las flores,Caturra,Washed / Wet,0.1200,low,good
+huautla de jimenez,Typica,Washed / Wet,0.1300,mid,poor
+"huazalingo, hidalgo",Caturra,Natural / Dry,0.1300,low,good
+"huazalingo, hidalgo",Caturra,Washed / Wet,0.1300,low,poor
+"huazalingo, hidalgo",Mundo Novo,Washed / Wet,0.1400,low,fair
+hustusco,Typica,Washed / Wet,0.1200,mid,great
+"iliatenco, guerrero",Mundo Novo,Natural / Dry,0.1200,mid,poor
+ixhuatlan del cafe,Typica,Washed / Wet,0.1300,mid,poor
+jaltenango,Catuai,Washed / Wet,0.1100,low,poor
+jaltenango,Typica,Washed / Wet,0.1100,mid,great
+"jaltocan, hidalgo",Typica,Natural / Dry,0.1500,low,good
+juchique de ferrer,Bourbon,Washed / Wet,0.1100,low,poor
+juquila,Typica,Washed / Wet,0.1200,mid,good
+la concordia,Bourbon,Washed / Wet,0.1000,mid,great
+la concordia,Bourbon,Washed / Wet,0.1100,mid,fair
+la concordia,Caturra,Washed / Wet,0.1200,mid,fair
+la concordia,Caturra,Washed / Wet,0.1200,mid,poor
+la concordia,Caturra,Washed / Wet,0.1200,mid,good
+la concordia,Caturra,Washed / Wet,0.1300,mid,poor
+la concordia,Caturra,Washed / Wet,0.1200,mid,poor
+la concordia,Marigojipe,Natural / Dry,0.1100,mid,fair
+la concordia,Other,Washed / Wet,0.1000,mid,fair
+la concordia,Pacas,Natural / Dry,0.1100,mid,good
+la concordia,Typica,Natural / Dry,0.1100,high,good
+la concordia,Typica,Semi-washed / Semi-pulped,0.1100,high,fair
+la concordia,Typica,Washed / Wet,0.1100,mid,good
+la concordia,Typica,Washed / Wet,0.1200,mid,fair
+la concordia,Typica,Washed / Wet,0.1200,high,fair
+la concordia,Typica,Washed / Wet,0.1200,mid,fair
+la concordia,Typica,Washed / Wet,0.1200,mid,fair
+la concordia,Typica,Washed / Wet,0.1300,mid,poor
+la concordia,Typica,Washed / Wet,0.1100,mid,good
+la concordia,Typica,Washed / Wet,0.1200,mid,poor
+la concordia,Typica,Washed / Wet,0.1200,mid,poor
+la concordia,Typica,Washed / Wet,0.1200,mid,poor
+la concordia,Typica,Washed / Wet,0.1100,mid,good
+la cumbre,Typica,Washed / Wet,0.1400,mid,great
+la yerba,Typica,Natural / Dry,0.1100,mid,good
+la yerba,Typica,Washed / Wet,0.1100,mid,fair
+la yerbabuena,Typica,Washed / Wet,0.0000,mid,great
+los angeles,Caturra,Washed / Wet,0.1300,mid,poor
+mahuixtlan,Typica,Washed / Wet,0.1200,low,good
+manzanillo,Typica,Semi-washed / Semi-pulped,0.1100,low,fair
+menglian,Typica,Washed / Wet,0.1400,low,poor
+motozintla,Catuai,Semi-washed / Semi-pulped,0.1300,mid,poor
+motozintla,Other,Washed / Wet,0.1200,low,poor
+motozintla,Other,Washed / Wet,0.1200,low,poor
+motozintla,Other,Washed / Wet,0.1200,low,poor
+motozintla,Other,Washed / Wet,0.1200,mid,poor
+motozintla,Typica,Washed / Wet,0.1200,mid,fair
+oaxaca,Typica,Washed / Wet,0.1100,low,fair
+oaxaca,Typica,Washed / Wet,0.1100,low,poor
+oaxaca,Typica,Washed / Wet,0.1100,mid,poor
+oaxaca,Typica,Washed / Wet,0.1000,mid,good
+ocosingo,Mundo Novo,Washed / Wet,0.1100,mid,poor
+"ohuapan, tlaltetela",Bourbon,Washed / Wet,0.1200,mid,poor
+petatlan,Bourbon,Natural / Dry,0.1000,mid,great
+petatlan,Typica,Natural / Dry,0.1000,mid,good
+petatlan,Typica,Washed / Wet,0.1100,mid,poor
+pochutla,Typica,Washed / Wet,0.1000,low,poor
+pochutla,Typica,Washed / Wet,0.1000,low,poor
+progreso santa rosa teocelo,Bourbon,Washed / Wet,0.1300,mid,good
+"sacún palma, municipio de chilón, chiapas",Caturra,Semi-washed / Semi-pulped,0.1100,low,good
+san bartolo tutotepec,Pacamara,Washed / Wet,0.1400,low,good
+san bartolo tutotepec,Typica,Washed / Wet,0.1300,high,good
+san bartolo tutotepec,Typica,Washed / Wet,0.1500,mid,good
+san fernando,Typica,Washed / Wet,0.1300,high,fair
+san isidro,Typica,Washed / Wet,0.1300,low,fair
+san miguel del puerto,Other,Washed / Wet,0.1100,low,poor
+san pedro cotzilnam,Typica,Semi-washed / Semi-pulped,0.1300,mid,good
+san pedro cotzilnam,Typica,Semi-washed / Semi-pulped,0.1200,mid,great
+santa catarina juquila,Other,Washed / Wet,0.1000,mid,good
+santa catarina juquila,Typica,Washed / Wet,0.1100,mid,good
+santa maria sitepec,Typica,Washed / Wet,0.1100,high,poor
+santo domingo cacalotepec,Typica,Washed / Wet,0.1100,mid,good
+santo reyes nopala,Typica,Washed / Wet,0.1200,mid,poor
+sierra alta mixe y zapoteca,Typica,Washed / Wet,0.0000,mid,poor
+"sierra fraylesca, chiapas",Typica,Washed / Wet,0.0000,mid,good
+sierra madre occidental,Caturra,Washed / Wet,0.1000,mid,poor
+sierra madre occidental,Typica,Washed / Wet,0.1100,mid,great
+"sierra norte yajalon, chiapas",Typica,Washed / Wet,0.1200,low,poor
+"sierra, chiapas",Bourbon,Washed / Wet,0.0000,mid,poor
+siltepec el triunfo,Typica,Washed / Wet,0.0000,mid,poor
+"siltepec el triunfo, chiapas, mexico",Typica,Washed / Wet,0.1100,mid,fair
+talpa de allende,Typica,Washed / Wet,0.1000,mid,poor
+talpa de allende,Typica,Washed / Wet,0.1000,mid,poor
+tapachula,Bourbon,Washed / Wet,0.1300,mid,fair
+tapachula,Pacamara,Washed / Wet,0.1200,low,great
+tapachula,Typica,Natural / Dry,0.1300,high,poor
+tapachula,Typica,Washed / Wet,0.1300,high,fair
+tapachula,Typica,Washed / Wet,0.1300,high,fair
+tapachula,Typica,Washed / Wet,0.1300,mid,poor
+temaxcalapa,Catuai,Washed / Wet,0.1200,low,poor
+"tenango de doria, hidalgo",Bourbon,Washed / Wet,0.1300,low,fair
+"tenango de doria, hidalgo",Caturra,Washed / Wet,0.1300,low,poor
+tepetzingo,Typica,Washed / Wet,0.1200,mid,poor
+tepictla,Bourbon,Washed / Wet,0.1200,mid,poor
+tepictla,Mundo Novo,Washed / Wet,0.1300,mid,fair
+tlacuilotepec,Mundo Novo,Washed / Wet,0.1100,low,poor
+tlacuilotepec,Pacamara,Washed / Wet,0.1100,low,poor
+"tlanchinol, hidalgo",Typica,Washed / Wet,0.1200,low,good
+tlatlauquitepec,Mundo Novo,Washed / Wet,0.1200,low,poor
+totutla,Pacamara,Washed / Wet,0.1200,mid,good
+tuxtla gutierrez,Typica,Washed / Wet,0.1200,low,poor
+tuxtla gutierrez,Typica,Washed / Wet,0.1200,high,good
+tuxtla gutierrez,Typica,Washed / Wet,0.1300,high,good
+veracruz,Bourbon,Washed / Wet,0.1200,mid,poor
+veracruz,Bourbon,Washed / Wet,0.1100,mid,fair
+veracruz,Bourbon,Washed / Wet,0.1100,low,poor
+veracruz,Bourbon,Washed / Wet,0.1300,low,poor
+veracruz,Bourbon,Washed / Wet,0.1200,mid,great
+veracruz,Bourbon,Washed / Wet,0.1200,low,poor
+veracruz,Bourbon,Washed / Wet,0.0000,low,poor
+veracruz,Bourbon,Washed / Wet,0.1300,low,poor
+veracruz,Bourbon,Washed / Wet,0.1100,high,poor
+veracruz,Bourbon,Washed / Wet,0.1200,mid,good
+veracruz,Bourbon,Washed / Wet,0.1200,mid,good
+veracruz,Bourbon,Washed / Wet,0.1300,mid,good
+veracruz,Bourbon,Washed / Wet,0.1300,mid,good
+veracruz,Mundo Novo,Washed / Wet,0.1200,mid,good
+veracruz,Mundo Novo,Washed / Wet,0.1100,mid,great
+veracruz,Mundo Novo,Washed / Wet,0.1200,low,poor
+veracruz,Mundo Novo,Washed / Wet,0.1100,mid,poor
+veracruz,Other,Washed / Wet,0.1200,low,good
+veracruz,Other,Washed / Wet,0.1200,low,poor
+veracruz,Other,Washed / Wet,0.1200,high,good
+veracruz,Pacamara,Washed / Wet,0.1400,mid,good
+veracruz,Typica,Semi-washed / Semi-pulped,0.1400,mid,poor
+veracruz,Typica,Washed / Wet,0.1200,mid,poor
+veracruz,Typica,Washed / Wet,0.1400,mid,poor
+veracruz,Typica,Washed / Wet,0.1200,mid,good
+veracruz,Typica,Washed / Wet,0.1100,low,good
+veracruz,Typica,Washed / Wet,0.1100,mid,fair
+veracruz,Typica,Washed / Wet,0.0900,mid,great
+veracruz,Typica,Washed / Wet,0.1200,low,poor
+villa talea de castro,Typica,Washed / Wet,0.1200,mid,poor
+xalapa,Bourbon,Natural / Dry,0.1300,mid,good
+xalapa,Caturra,Washed / Wet,0.1300,mid,poor
+xalapa,Other,Washed / Wet,0.1300,mid,great
+xalapa,Typica,Washed / Wet,0.1200,low,good
+xalapa,Typica,Washed / Wet,0.1300,mid,poor
+xicotepec de juarez,Caturra,Washed / Wet,0.1100,mid,poor
+xicotepec de juarez,Typica,Washed / Wet,0.1200,low,fair
+xicotepec de juarez,Typica,Washed / Wet,0.1200,low,good
+xicotepec de juarez,Typica,Washed / Wet,0.1300,low,poor
+"xochitonalco, huautla        ",Typica,Natural / Dry,0.1300,mid,poor
+yajalon,Bourbon,Washed / Wet,0.1100,mid,poor
+yajalon,Typica,Washed / Wet,0.1400,mid,poor
+yecuatla,Caturra,Washed / Wet,0.1300,mid,poor
+zapotitlan de mendez,Typica,Washed / Wet,0.1200,low,fair
+zaragoza itundujia,Bourbon,Washed / Wet,0.1400,mid,poor
+zaragoza itundujia,Typica,Semi-washed / Semi-pulped,0.1400,mid,poor
+zaragoza itundujia,Typica,Washed / Wet,0.1400,mid,fair
+zaragoza itundujia,Typica,Washed / Wet,0.1500,mid,poor
+zaragoza itundujia,Typica,Washed / Wet,0.1400,mid,poor
+zaragoza itundujia,Typica,Washed / Wet,0.1600,mid,poor
+zaragoza itundujia,Typica,Washed / Wet,0.1600,mid,poor
+zaragoza itundujia,Typica,Washed / Wet,0.1400,mid,poor
+zaragoza itundujia,Typica,Washed / Wet,0.1500,mid,poor
+zaragoza itundujia,Typica,Washed / Wet,0.1600,mid,poor
+zaragoza itundujia,Typica,Washed / Wet,0.1700,mid,poor
+zaragoza itundujia,Typica,Washed / Wet,0.1500,mid,poor
+zentla,Typica,Washed / Wet,0.1400,low,poor
+zentla,Typica,Washed / Wet,0.1400,low,poor
+zihuatanejo de azueta,Typica,Washed / Wet,0.1100,mid,good
+"doe kwin, pyin oo lwin",Other,Washed / Wet,0.0000,high,poor
+pyin oo lwin,Other,Washed / Wet,0.0000,high,poor
+"yauk sauk, shan state",Other,Natural / Dry,0.1100,low,poor
+ywar ngan,Catuai,Natural / Dry,0.0000,high,poor
+ywar ngan,Catuai,Washed / Wet,0.0000,high,good
+ywar ngan,Catuai,Washed / Wet,0.0000,mid,fair
+ywar ngan,Catuai,Washed / Wet,0.0000,high,fair
+jalapa,Caturra,other,0.1100,low,fair
+jalapa,Caturra,other,0.1000,low,poor
+jalapa,Caturra,other,0.1300,low,poor
+jinotega,Catuai,Washed / Wet,0.1000,low,fair
+jinotega,Caturra,Natural / Dry,0.1200,low,poor
+jinotega,Caturra,Natural / Dry,0.1200,low,great
+jinotega,Caturra,Washed / Wet,0.1000,mid,good
+jinotega,Caturra,Washed / Wet,0.1100,mid,poor
+jinotega,Caturra,Washed / Wet,0.1000,mid,poor
+jinotega,Caturra,Washed / Wet,0.1100,mid,poor
+jinotega,Other,Washed / Wet,0.1100,low,poor
+matagalpa,Caturra,Washed / Wet,0.1000,low,poor
+matagalpa,Caturra,Washed / Wet,0.1100,low,poor
+boquete,Catuai,Washed / Wet,0.0000,low,fair
+boquete,Caturra,Natural / Dry,0.0900,high,good
+boquete,Caturra,other,0.1100,high,poor
+boquete,Gesha,Washed / Wet,0.0800,mid,great
+san ignacio,Caturra,Washed / Wet,0.0000,mid,good
+san ignacio,Typica,Washed / Wet,0.0000,mid,poor
+asia pacific,Other,Washed / Wet,0.0000,mid,fair
+"bukidnon, mindanao, philppines",Other,Washed / Wet,0.1100,mid,good
+corillera administrative,Typica,Natural / Dry,0.0000,mid,poor
+"davao city, region 11",Other,Washed / Wet,0.1400,mid,poor
+gicumbi,Bourbon,Washed / Wet,0.1100,high,great
+changhua baguashan,Typica,Semi-washed / Semi-pulped,0.1100,low,fair
+changhua baguashan,Typica,Semi-washed / Semi-pulped,0.1100,low,fair
+changhua baguashan,Typica,Semi-washed / Semi-pulped,0.1100,low,poor
+changhua baguashan,Typica,Washed / Wet,0.1100,low,poor
+changhua baguashan,Typica,Washed / Wet,0.1100,low,poor
+chiayi,Typica,other,0.1100,mid,good
+chiayi,Typica,Semi-washed / Semi-pulped,0.1100,low,poor
+chiayi,Typica,Washed / Wet,0.1100,mid,fair
+leye,Caturra,Natural / Dry,0.1000,mid,good
+leye,Sumatra,Pulped natural / honey,0.0000,mid,great
+leye,Typica,Washed / Wet,0.1100,mid,good
+"mountain ali, taiwan",Typica,Washed / Wet,0.1100,mid,great
+nantou,Typica,Natural / Dry,0.0000,low,poor
+nantou,Typica,other,0.1100,low,poor
+nantou,Typica,Semi-washed / Semi-pulped,0.1100,low,fair
+nantou,Typica,Semi-washed / Semi-pulped,0.1100,low,poor
+nantou,Typica,Washed / Wet,0.1100,low,fair
+nantou,Typica,Washed / Wet,0.1100,low,poor
+nantou,Typica,Washed / Wet,0.1100,low,fair
+natou county,Bourbon,Semi-washed / Semi-pulped,0.1200,low,great
+natou county,Bourbon,Washed / Wet,0.1000,low,fair
+natou county,Typica,Semi-washed / Semi-pulped,0.1100,low,great
+natou county,Typica,Semi-washed / Semi-pulped,0.0000,low,poor
+natou county,Typica,Washed / Wet,0.1000,low,fair
+natou county,Typica,Washed / Wet,0.1100,low,poor
+natou county,Typica,Washed / Wet,0.1100,low,poor
+taichung taiping,Typica,Washed / Wet,0.1100,low,poor
+taichung xinshe,Typica,other,0.1100,low,fair
+taichung xinshe,Typica,other,0.1100,low,good
+taichung xinshe,Typica,other,0.1100,low,fair
+taichung xinshe,Typica,Washed / Wet,0.1100,low,fair
+taichung xinshe,Typica,Washed / Wet,0.1100,low,great
+taichung xinshe,Yellow Bourbon,other,0.1100,low,poor
+tainan city,Caturra,Natural / Dry,0.0900,low,great
+tainan city,Typica,Natural / Dry,0.0000,low,good
+tainan city,Typica,Natural / Dry,0.0000,low,great
+tainan city,Typica,Natural / Dry,0.1200,low,good
+tainan city,Typica,Natural / Dry,0.0000,low,good
+tainan city,Typica,Washed / Wet,0.1000,low,good
+tainan city,Typica,Washed / Wet,0.0000,low,good
+tainan city,Typica,Washed / Wet,0.0000,low,poor
+tainan city,Typica,Washed / Wet,0.1200,low,poor
+tainan city,Typica,Washed / Wet,0.0000,low,fair
+tainan city,Typica,Washed / Wet,0.0900,low,fair
+tainan city,Typica,Washed / Wet,0.1200,low,good
+tainan city,Typica,Washed / Wet,0.1000,low,poor
+tainan city,Typica,Washed / Wet,0.1000,low,poor
+tainan city,Typica,Washed / Wet,0.1100,low,poor
+tainan city,Yellow Bourbon,Natural / Dry,0.0000,low,good
+tainan city,Yellow Bourbon,Washed / Wet,0.0000,low,poor
+taiwan,Other,Natural / Dry,0.0000,low,poor
+taiwan,Other,Washed / Wet,0.0000,low,poor
+arusha,Arusha,Washed / Wet,0.1100,mid,fair
+arusha,Other,Semi-washed / Semi-pulped,0.1200,high,good
+arusha,Other,Washed / Wet,0.1300,mid,good
+arusha,Other,Washed / Wet,0.1200,mid,poor
+arusha,Other,Washed / Wet,0.1200,mid,poor
+arusha meru,Ruiru 11,Washed / Wet,0.1300,high,poor
+ikand village,Other,Washed / Wet,0.1200,mid,fair
+"ilomba vilage, mbozi",Other,Washed / Wet,0.1200,high,fair
+"ilomba vilage, mbozi",Other,Washed / Wet,0.1200,high,poor
+"iwala village, mbeya rural",Other,Washed / Wet,0.1300,mid,poor
+karatu arusha,Other,Washed / Wet,0.1200,high,fair
+karatu arusha,Other,Washed / Wet,0.1200,mid,fair
+karatu ngorogoro,Other,Washed / Wet,0.1300,high,poor
+karatu northern,Bourbon,Washed / Wet,0.1300,mid,good
+kilimanjaro,Bourbon,Washed / Wet,0.1200,high,fair
+kilimanjaro,Bourbon,Washed / Wet,0.1200,mid,poor
+kilimanjaro,Other,Washed / Wet,0.1300,high,poor
+"manyara, karatu",Other,Washed / Wet,0.1200,high,poor
+mbeya,Other,Washed / Wet,0.1200,high,poor
+mbeya,Other,Washed / Wet,0.1200,high,great
+mbeya,Other,Washed / Wet,0.1200,mid,good
+mbinga,Bourbon,Washed / Wet,0.1200,mid,poor
+mbinga,Bourbon,Washed / Wet,0.1200,mid,fair
+mbinga,Other,Washed / Wet,0.1300,high,good
+mbinga,Other,Washed / Wet,0.1200,mid,poor
+meru,Other,Washed / Wet,0.1200,mid,fair
+mkuu rombo,Bourbon,Washed / Wet,0.1300,high,poor
+moshi,Bourbon,Washed / Wet,0.1200,low,good
+ngorogoro,Other,Washed / Wet,0.1200,mid,fair
+ngorogoro,Other,Washed / Wet,0.1200,mid,fair
+nkure- meru,Ruiru 11,Washed / Wet,0.1300,mid,good
+northern,Other,Washed / Wet,0.1200,mid,fair
+"oldeani , mongola",Other,Washed / Wet,0.1200,high,fair
+ruvuma,Bourbon,Washed / Wet,0.1300,high,fair
+"ruvuma, mbinga",Bourbon,Washed / Wet,0.1200,low,poor
+shizingo village,Other,Washed / Wet,0.1200,high,good
+chiang rai,Caturra,Washed / Wet,0.1000,mid,great
+chiang rai thailand,Catimor,Natural / Dry,0.1200,mid,good
+chiangrai,Catimor,Natural / Dry,0.1000,mid,good
+chiangrai,Caturra,Washed / Wet,0.1200,mid,fair
+chiangrai,Caturra,Washed / Wet,0.1200,mid,good
+chiangrai,Caturra,Washed / Wet,0.1100,mid,fair
+phahi,Caturra,Washed / Wet,0.1100,mid,fair
+thailand,Catimor,Washed / Wet,0.1300,mid,good
+thailand,Other,Washed / Wet,0.1200,low,great
+thailand,Other,Washed / Wet,0.1200,low,poor
+eastern,SL14,Natural / Dry,0.1200,high,fair
+eastern,SL14,Natural / Dry,0.1200,high,poor
+eastern,SL14,Natural / Dry,0.1200,high,great
+eastern,SL14,Natural / Dry,0.1200,high,great
+eastern,SL14,Washed / Wet,0.1200,high,great
+eastern,SL14,Washed / Wet,0.1200,mid,great
+eastern,SL14,Washed / Wet,0.1100,high,great
+eastern,SL14,Washed / Wet,0.1100,high,good
+eastern,SL14,Washed / Wet,0.1200,high,good
+eastern,SL14,Washed / Wet,0.1100,high,good
+eastern,SL14,Washed / Wet,0.1000,high,good
+eastern,SL14,Washed / Wet,0.1200,high,fair
+kapchorwa,SL14,Washed / Wet,0.1200,high,good
+kapchorwa,SL14,Washed / Wet,0.1200,high,great
+kasese,Other,Natural / Dry,0.1300,high,good
+kasese,Other,Washed / Wet,0.1000,high,good
+"kasese, mt. rwenzori",Bourbon,Natural / Dry,0.1200,high,good
+"kasese, mt. rwenzori",Bourbon,Washed / Wet,0.1200,mid,good
+mbale,Other,Washed / Wet,0.1100,high,great
+mt elgon,SL14,Washed / Wet,0.1200,high,fair
+mt. rwenzori,Other,Washed / Wet,0.1100,mid,good
+"sipi, mt elgon",Other,Washed / Wet,0.1000,high,great
+west nile,Bourbon,Natural / Dry,0.1200,mid,great
+west nile,SL14,Washed / Wet,0.1200,mid,good
+antioquia,Other,Washed / Wet,0.0000,high,great
+antioquia,Other,Washed / Wet,0.0000,high,great
+antioquia,Other,Washed / Wet,0.0000,high,great
+antioquia,Other,Washed / Wet,0.0000,high,great
+antioquia,Other,Washed / Wet,0.0000,high,great
+antioquia,Other,Washed / Wet,0.0000,high,great
+central america,Pache Comun,Natural / Dry,0.0000,high,poor
+kona,Arusha,Natural / Dry,0.1300,low,poor
+kona,Hawaiian Kona,Natural / Dry,0.0000,low,great
+kona,Hawaiian Kona,Natural / Dry,0.1000,low,poor
+kona,Hawaiian Kona,Natural / Dry,0.1100,low,poor
+kona,Hawaiian Kona,Natural / Dry,0.0000,low,fair
+kona,Hawaiian Kona,Natural / Dry,0.0000,low,good
+kona,Hawaiian Kona,Natural / Dry,0.1100,low,good
+kona,Hawaiian Kona,Natural / Dry,0.1000,low,fair
+kona,Hawaiian Kona,Natural / Dry,0.1100,low,good
+kona,Hawaiian Kona,Natural / Dry,0.1100,low,fair
+kona,Hawaiian Kona,Natural / Dry,0.1200,low,good
+kona,Hawaiian Kona,Natural / Dry,0.1000,low,great
+kona,Hawaiian Kona,Natural / Dry,0.0000,low,good
+kona,Hawaiian Kona,Natural / Dry,0.1200,low,poor
+kona,Hawaiian Kona,Natural / Dry,0.1100,low,poor
+kona,Hawaiian Kona,Natural / Dry,0.1200,low,poor
+kona,Hawaiian Kona,Natural / Dry,0.1200,low,poor
+kona,Hawaiian Kona,Natural / Dry,0.1000,low,good
+kona,Hawaiian Kona,Natural / Dry,0.1100,low,fair
+kona,Hawaiian Kona,Natural / Dry,0.1100,low,poor
+kona,Hawaiian Kona,Natural / Dry,0.1200,low,poor
+kona,Hawaiian Kona,Natural / Dry,0.1200,low,good
+kona,Hawaiian Kona,Natural / Dry,0.1200,low,poor
+kona,Hawaiian Kona,Natural / Dry,0.0000,low,poor
+kona,Hawaiian Kona,Natural / Dry,0.0000,low,poor
+kona,Hawaiian Kona,Natural / Dry,0.0000,low,poor
+kona,Hawaiian Kona,Natural / Dry,0.0000,low,poor
+kona,Hawaiian Kona,Natural / Dry,0.1100,low,poor
+kona,Hawaiian Kona,Natural / Dry,0.1000,low,good
+kona,Hawaiian Kona,Natural / Dry,0.1000,low,great
+kona,Hawaiian Kona,Natural / Dry,0.0000,low,fair
+kona,Hawaiian Kona,Natural / Dry,0.1100,low,good
+kona,Hawaiian Kona,Natural / Dry,0.0000,low,great
+kona,Hawaiian Kona,Natural / Dry,0.0000,low,great
+kona,Hawaiian Kona,Natural / Dry,0.0000,low,great
+kona,Hawaiian Kona,Natural / Dry,0.1100,low,great
+kona,Hawaiian Kona,Natural / Dry,0.0000,low,good
+kona,Hawaiian Kona,Natural / Dry,0.1100,low,great
+kona,Hawaiian Kona,Natural / Dry,0.1100,low,great
+kona,Hawaiian Kona,Natural / Dry,0.1100,low,good
+kona,Hawaiian Kona,other,0.0000,low,great
+kona,Hawaiian Kona,other,0.0000,low,great
+kona,Hawaiian Kona,Washed / Wet,0.1200,low,good
+kona,Hawaiian Kona,Washed / Wet,0.1000,low,fair
+kona,Hawaiian Kona,Washed / Wet,0.1000,low,poor
+kona,Hawaiian Kona,Washed / Wet,0.0600,low,fair
+kona,Hawaiian Kona,Washed / Wet,0.1000,low,poor
+kona,Hawaiian Kona,Washed / Wet,0.1200,low,fair
+kona,Hawaiian Kona,Washed / Wet,0.1200,low,good
+kona,Hawaiian Kona,Washed / Wet,0.1200,low,fair
+kona,Hawaiian Kona,Washed / Wet,0.1000,low,fair
+yauco region,Other,Washed / Wet,0.1200,low,great
+yauco region,Other,Washed / Wet,0.0000,low,fair
+yauco region,Other,Washed / Wet,0.1300,low,poor
+yauco region,Other,Washed / Wet,0.0000,low,good
+dala,Catimor,Natural / Dry,0.0700,mid,fair
+dala,Catimor,other,0.0000,mid,poor
+don duong,Other,Natural / Dry,0.1200,low,great
+don duong,Other,Natural / Dry,0.0000,low,poor
+vietnam,Caturra,Washed / Wet,0.1200,low,poor
+vietnam cau dat,Caturra,other,0.0000,mid,good
+mubuyu estate,SL28,Washed / Wet,0.0000,mid,poor

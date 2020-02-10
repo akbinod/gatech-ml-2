@@ -1,0 +1,17 @@
+akbinod/Utils/__pycache__/DecayedParameter.cpython-37.pyc
+akbinod/Utils/__pycache__/DecoratorBase.cpython-37.pyc
+akbinod/Utils/__pycache__/LittmanAlpha.cpython-37.pyc
+akbinod/Utils/__pycache__/Memo.cpython-37.pyc
+akbinod/Utils/__pycache__/Plotting.cpython-37.pyc
+akbinod/Utils/__pycache__/TimedFunction.cpython-37.pyc
+akbinod/Utils/__pycache__/TrackedProperty.cpython-37.pyc
+akbinod/Utils/__pycache__/UndecayedParameter.cpython-37.pyc
+akbinod/__pycache__/__init__.cpython-37.pyc
+models/
+data/working
+learners/__pycache__/
+.vscode/launch.json
+sample/
+akbinod/__pycache__/
+akbinod/Utils/__pycache__/
+recordings/
