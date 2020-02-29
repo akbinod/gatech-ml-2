@@ -102,7 +102,7 @@ class BaseLearner():
 		# this needs to be rebuilt
 		self.model = None
 
-	def load_inference_data():
+	def load_inference_data(self):
 		self.load_training_data()
 		self.model = joblib.load(self.learner_params.model_file)
 
@@ -154,9 +154,7 @@ class BaseLearner():
 				# print (f"roc_auc train, test: {self.roc_auc_train}, {self.roc_auc_test}")
 		return (self.f1_score_train, self.f1_score_test)
 
-	def plot_learning_curve(self
-							# , axes=None
-						):
+	def plot_learning_curve(self):
 		"""
 		Generate 3 plots: the test and training learning curve, the training
 		samples vs fit times curve, the fit times vs score curve.

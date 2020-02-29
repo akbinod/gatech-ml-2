@@ -15,3 +15,10 @@ sample/
 akbinod/__pycache__/
 akbinod/Utils/__pycache__/
 recordings/
+Solvers/__pycache__/__init__.cpython-37.pyc
+Solvers/__pycache__/BaseAlgorithm.cpython-37.pyc
+Solvers/__pycache__/BaseSolver.cpython-37.pyc
+Solvers/__pycache__/Queens.cpython-37.pyc
+Solvers/__pycache__/RandomHIllClimbing.cpython-37.pyc
+Solvers/__pycache__/SimulatedAnnealing.cpython-37.pyc
+Solvers/__pycache__/SolverParams.cpython-37.pyc
