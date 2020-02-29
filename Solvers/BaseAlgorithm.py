@@ -12,8 +12,8 @@ class BaseAlgorithm():
 
 	def __str__(self):
 		ret = str(self.name)
-		if self.best_fitness is not None:
-			ret = ret + " - best: " + str(self.best_fitness)
+		# if self.best_fitness is not None:
+		# 	ret = ret + " - best: " + str(self.best_fitness)
 
 		return ret
 

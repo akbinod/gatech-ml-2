@@ -3,12 +3,14 @@ import mlrose_hiive as mlrose
 import numpy as np
 import time
 from Solvers import BaseAlgorithm
+from akbinod.Utils.TimedFunction import TimedFunction
 
 class GeneticAlgorithm(BaseAlgorithm):
 	def __init__(self, params):
 		super().__init__(params)
 		self.name = "GA"
 
+	@TimedFunction(True)
 	def tune(self, problem, init_state, maximizing):
 		sols = []
 		pop_size = [20, 200, 1000]
@@ -50,9 +52,10 @@ class GeneticAlgorithm(BaseAlgorithm):
 
 		return
 
-
+	@TimedFunction(True)
 	def solve(self, problem, init_state):
 		# Solve problem using Genetic Algorithms
+		t1 = time.process_time()
 		self.best_state , self.best_fitness, self.iteration_scores = mlrose.genetic_alg(
 												problem
 												, pop_size = self.params.pop_size
@@ -63,6 +66,8 @@ class GeneticAlgorithm(BaseAlgorithm):
 												, random_state=self.params.random_state
 												, curve = True
 												)
+		t2 = time.process_time()
+		self.solve_time = t2 - t1
 
-		return self.best_state, self.best_fitness, self.iteration_scores
+		return
 

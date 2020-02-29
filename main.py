@@ -1,6 +1,9 @@
 import appnope
 import json
 import numpy as np
+import setproctitle
+import os
+import sys
 
 # from akbinod.Utils.Plotting import Plot
 
@@ -66,7 +69,7 @@ def main_a1(get_coffee):
 def SolveQueens(tune = False):
 	sp = SolverParams()
 	# for the problem
-	sp.num_queens = 32
+	sp.num_queens = 8
 	# sp.max_iters = np.inf
 	# sp.max_attempts = 200
 
@@ -80,7 +83,7 @@ def SolveQueens(tune = False):
 
 	# lets have the solver override parameters with
 	# whatever its learnt from tuning.
-	slv = Queens(sp,True)
+	slv = Queens(sp)
 	if tune:
 		slv.tune()
 	else:
@@ -88,9 +91,22 @@ def SolveQueens(tune = False):
 		plt = slv.plot_comparisons()
 		plt.show()
 
-def main():
+
+def main(run_name = ""):
+	if run_name == "":
+		# just use the folder name - that's probably going to be the project/run
+		run_name = os.path.dirname(os.path.curdir)
+
+	# this does not show up in mac activity monitor
+	# not in top either - that just showed Python
+	# way to go pythonistas, the worship of all things python
+	# def more important than just plain clarity.
+	setproctitle.setproctitle (run_name)
+	print(setproctitle.getproctitle())
+
 	with appnope.nope_scope():
-		SolveQueens(True)
+		SolveQueens(False)
 
 if __name__ == "__main__":
-	main()
+	# change this to something that shows the grid search your in
+	main("devel project")

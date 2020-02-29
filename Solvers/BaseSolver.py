@@ -2,20 +2,44 @@ import numpy as np
 from matplotlib import pyplot as plt
 
 class BaseSolver():
-	def __init__(self, params, auto_set_hp = True):
+	def __init__(self, params):
 		self.params = params
-		self.auto_set_hp = auto_set_hp
 
 		self.current_fitness_score = None
 		self.algorithms = []
 		self.plot_colors = ['red', 'blue', 'green', 'black']
+		self.sa_params = None
+		self.rhc_params = None
+		self.ga_params = None
+		self.mimic_params = None
 
 	def solve(self):
-		# Implementors must override this function.
-		# Must return best_state, best_fitness,
-		# iteration_scores[] (same as curve returned by the algorithm),
-		# fitness_scores[] (accumulation of fitness scores)
-		raise NotImplementedError()
+
+		self.results = []
+		for alg in self.algorithms:
+			# so that the fitness function records to the correct array
+			self.current_fitness_score = alg.fitness_scores
+			alg.solve(self.problem, self.init_state)
+			if not self.maximize:
+				alg.fitness_scores = [- score for i, score in enumerate(alg.fitness_scores)]
+				alg.iteration_scores = [- score for i, score in enumerate(alg.iteration_scores)]
+
+			r = {}
+			r["alg"] = str(alg)
+			r["time"] = alg.solve_time
+			r["best_fitness"] = alg.best_fitness
+			r["average_score"] = round(float(np.mean(alg.iteration_scores)),4)
+			r["iterations"] = len(alg.iteration_scores)
+			r["fit_fn_calls"] = len(alg.fitness_scores)
+			self.results.append(r)
+
+		print(f"alg\tbest_f\tavg_f\titers\tfn_cal\ttime")
+		for r in self.results:
+			print(f"{r['alg']}\t{r['best_fitness']}\t{r['average_score']}\t{r['iterations']}\t{r['fit_fn_calls']}\t{r['time']}")
+
+		return
+
+
 
 	def fitness_fn(self):
 		# implementors must override this function - even if the
@@ -72,37 +96,27 @@ class BaseSolver():
 		_, axes = plt.subplots(1, 2, figsize=(20, 5))
 
 		# Plot fitness over iterations
-		axes[0].set_title("Fitness/Iterations: " + str(self))
+		axes[0].set_title("Benchmarking Fitness (iterations): " + str(self))
 		axes[0].set_xlabel("iterations")
 		axes[0].set_ylabel(self.fitness_label)
 
-
-		# ylim=(0.2, 1.01)
-		# axes[0].set_ylim(*ylim)
-		# axes[0].grid()
-		# axes[0].fill_between(train_sizes, train_scores_mean - train_scores_std,
-		# 					train_scores_mean + train_scores_std, alpha=0.1,
-		# 					color="r")
-		# axes[0].fill_between(train_sizes, test_scores_mean - test_scores_std,
-		# 					test_scores_mean + test_scores_std, alpha=0.1,
-		# 					color="g")
 		for i, alg in enumerate(self.algorithms):
 			if len(alg.iteration_scores):
 				axes[0].plot(alg.iteration_scores, '-'
 							, color=self.plot_colors[i]
-							, label= str(alg)
+							, label= str(alg) +  ": " + str(alg.best_fitness)
 							)
 		axes[0].legend(loc="best")
 
 		# Plot fitness over fitness function calls
-		axes[1].set_title("Fitness/Fitness Function Calls: " + str(self))
+		axes[1].set_title("Benchmarking Fitness (fn calls): " + str(self))
 		axes[1].set_xlabel("fitness function calls")
 		axes[1].set_ylabel(self.fitness_label)
 		for i, alg in enumerate(self.algorithms):
 			if len(alg.fitness_scores):
 				axes[1].plot(alg.fitness_scores, '-'
 							, color=self.plot_colors[i]
-							, label= str(alg)
+							, label= str(alg) +  ": " + str(alg.best_fitness)
 							)
 		axes[1].legend(loc="best")
 

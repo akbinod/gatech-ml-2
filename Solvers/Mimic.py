@@ -3,12 +3,14 @@ import mlrose_hiive as mlrose
 import numpy as np
 import time
 from Solvers import BaseAlgorithm
+from akbinod.Utils.TimedFunction import TimedFunction
 
 class Mimic(BaseAlgorithm):
 	def __init__(self, params):
 		super().__init__(params)
 		self.name = "MIMIC"
 
+	@TimedFunction(True)
 	def tune(self, problem, init_state, maximizing):
 		sols = []
 		# pop_size = [200, 1000]
@@ -56,9 +58,10 @@ class Mimic(BaseAlgorithm):
 
 		return
 
-
+	@TimedFunction(True)
 	def solve(self, problem, init_state):
 		# Solve problem using Genetic Algorithms
+		t1 = time.process_time()
 		self.best_state , self.best_fitness, self.iteration_scores = mlrose.mimic (
 												problem
 												, pop_size = self.params.pop_size
@@ -69,5 +72,8 @@ class Mimic(BaseAlgorithm):
 												, random_state=1
 												, curve = True)
 
-		return self.best_state, self.best_fitness, self.iteration_scores
+		t2 = time.process_time()
+		self.solve_time = t2 - t1
+
+		return
 

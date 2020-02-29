@@ -3,6 +3,7 @@ import mlrose_hiive as mlrose
 import numpy as np
 import time
 from Solvers.BaseAlgorithm import BaseAlgorithm
+from akbinod.Utils.TimedFunction import TimedFunction
 
 class SimulatedAnnealing(BaseAlgorithm):
 	def __init__(self, params):
@@ -54,7 +55,6 @@ class SimulatedAnnealing(BaseAlgorithm):
 		sol["best_score_at"] = float(np.argmax(iteration_scores))
 		sol["iterations"] = len(iteration_scores)
 
-		print(json.dumps(sols))
 
 		# best_sched_name = ""
 		# if maximizing:
@@ -107,23 +107,24 @@ class SimulatedAnnealing(BaseAlgorithm):
 					sol["best_fitness"] = np.max(iteration_scores)
 					sol["best_score_at"] = float(np.argmax(iteration_scores))
 					sol["iterations"] = len(iteration_scores)
-		print(json.dumps(sols))
+
 		print(f"max_att\tmax_itr\trand\tfitness\tbest_at\titers\ttime")
 		for sol in sols:
 			print(f"{sol['attempts']}\t{sol['iters']}\t{sol['random_state']}\t{sol['best_fitness']}\t{sol['best_score_at']}\t{sol['iterations']}\t{sol['time']}")
 
 		return
 
+	@TimedFunction(True)
 	def tune(self, problem, init_state, maximizing):
 		# Figure out the best schedule - the answer is GeomSched
 		# self.tune_scheds(problem, init_state, maximizing)
 		self.tune_rest(problem, init_state, maximizing)
 
+	@TimedFunction(True)
 	def solve(self, problem, init_state):
 		# Solve problem using simulated annealing
 
-		# # do not fix the random_state - let it keep changing
-		# so that things are starting from a different spot each time
+		t1 = time.process_time()
 		self.best_state , self.best_fitness, self.iteration_scores = mlrose.simulated_annealing(
 														problem
 														, schedule = self.params.decay_schedule
@@ -133,5 +134,8 @@ class SimulatedAnnealing(BaseAlgorithm):
 														, curve = True
 														, random_state=self.params.random_state)
 
-		return self.best_state, self.best_fitness, self.iteration_scores
+		t2 = time.process_time()
+		self.solve_time = t2 - t1
+
+		return
 

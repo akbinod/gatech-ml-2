@@ -3,12 +3,14 @@ import mlrose_hiive as mlrose
 import numpy as np
 import time
 from Solvers import BaseAlgorithm
+from akbinod.Utils.TimedFunction import TimedFunction
 
 class RandomHillClimbing(BaseAlgorithm):
 	def __init__(self, params):
 		super().__init__(params)
 		self.name = "RHC"
 
+	@TimedFunction(True)
 	def tune(self, problem, init_state, maximizing):
 
 		sols = []
@@ -53,9 +55,10 @@ class RandomHillClimbing(BaseAlgorithm):
 
 		return
 
-
+	@TimedFunction(True)
 	def solve(self, problem, init_state):
 		# Solve problem using Random Hill Climbing
+		t1 = time.process_time()
 		self.best_state , self.best_fitness, self.iteration_scores = mlrose.random_hill_climb(
 														problem
 														, restarts = self.params.restarts
@@ -65,5 +68,8 @@ class RandomHillClimbing(BaseAlgorithm):
 														, curve = True
 														, random_state=self.params.random_state)
 
-		return self.best_state, self.best_fitness, self.iteration_scores
+		t2 = time.process_time()
+		self.solve_time = t2 - t1
+
+		return
 
