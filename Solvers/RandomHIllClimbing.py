@@ -2,7 +2,7 @@ import json
 import mlrose_hiive as mlrose
 import numpy as np
 import time
-from Solvers.BaseAlgorithm import BaseAlgorithm
+from Solvers import BaseAlgorithm
 
 class RandomHillClimbing(BaseAlgorithm):
 	def __init__(self, params):
@@ -30,7 +30,7 @@ class RandomHillClimbing(BaseAlgorithm):
 						sol["random_state"] = ra
 
 						proc_time1 = time.process_time()
-						_, _ , iteration_scores = mlrose.simulated_annealing(
+						_, _ , iteration_scores = mlrose.random_hill_climb(
 														problem
 														, restarts = restart
 														, max_attempts = att
@@ -56,9 +56,7 @@ class RandomHillClimbing(BaseAlgorithm):
 
 	def solve(self, problem, init_state):
 		# Solve problem using Random Hill Climbing
-
-		# so that things are starting from a different spot each time
-		self.best_state , self.best_fitness, self.iteration_scores = mlrose.simulated_annealing(
+		self.best_state , self.best_fitness, self.iteration_scores = mlrose.random_hill_climb(
 														problem
 														, restarts = self.params.restarts
                                                       	, max_attempts = self.params.max_attempts

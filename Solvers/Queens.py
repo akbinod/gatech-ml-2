@@ -1,8 +1,13 @@
 import mlrose_hiive as mlrose
 import numpy as np
 from Solvers.BaseSolver import BaseSolver
+from Solvers.RandomHIllClimbing import RandomHillClimbing
 from Solvers.SimulatedAnnealing import SimulatedAnnealing
-from Solvers.RandomHIllClimbing import RandomHIllClimbing
+from Solvers.GeneticAlgorithm import GeneticAlgorithm
+from Solvers.Mimic import Mimic
+
+# import Solvers.SimulatedAnnealing
+
 
 import copy
 
@@ -40,19 +45,35 @@ class Queens(BaseSolver):
 	def init_empirical_hp(self):
 		# these truths we hold to be self evident (come from HP tuning)
 
-		# set up whatever we know about SA
+		# set up whatever we know about SA - good, done
 		self.sa_params = copy.deepcopy(self.params)
 		self.sa_params.random_state = 1
 		self.sa_params.decay_schedule = mlrose.GeomDecay()
 		self.sa_params.max_iters = np.inf
 		self.sa_params.max_attempts = 2500
 
-		# set up whatever we know about RHC
+		# set up whatever we know about RHC - in progress
 		self.rhc_params = copy.deepcopy(self.params)
 		self.rhc_params.random_state = 1
 		self.rhc_params.restarts = 25
 		self.rhc_params.max_iters = np.inf
 		self.rhc_params.max_attempts = 2500
+
+		# set up whatever we know about GA - TBD
+		self.ga_params = copy.deepcopy(self.params)
+		self.ga_params.pop_size = 100
+		self.ga_params.pop_breed_percent = 0.25
+		self.ga_params.mutation_prob = 0.2
+		self.rhc_params.max_iters = np.inf
+		self.rhc_params.max_attempts = 250
+
+		# set up whatever we know about Mimic - TBD
+		self.mimic_params = copy.deepcopy(self.params)
+		self.mimic_params.pop_size = 100
+		self.mimic_params.keep_pct = 0.25
+		self.mimic_params.noise = 0.2
+		self.mimic_params.max_iters = np.inf
+		self.mimic_params.max_attempts = 250
 
 	def tune(self):
 		# alg = SimulatedAnnealing(self.params)
@@ -60,7 +81,17 @@ class Queens(BaseSolver):
 		# self.current_fitness_score = alg.fitness_scores
 		# alg.tune(self.problem, self.init_state, False)
 
-		alg = RandomHIllClimbing(self.params)
+		# alg = RandomHillClimbing(self.params)
+		# # so that the fitness function records to the correct array
+		# self.current_fitness_score = alg.fitness_scores
+		# alg.tune(self.problem, self.init_state, False)
+
+		alg = GeneticAlgorithm(self.params)
+		# so that the fitness function records to the correct array
+		self.current_fitness_score = alg.fitness_scores
+		alg.tune(self.problem, self.init_state, False)
+
+		alg = Mimic(self.params)
 		# so that the fitness function records to the correct array
 		self.current_fitness_score = alg.fitness_scores
 		alg.tune(self.problem, self.init_state, False)
@@ -68,13 +99,19 @@ class Queens(BaseSolver):
 		return
 
 	def solve(self):
-		# Solve problem using simulated annealing
-		if self.sa_params is not None:
-			pa = self.sa_params
-		else:
-			pa = self.params
+		# Solve problem using all the tuned algorithms
+
+		# pa = self.params if self.sa_params is None else self.sa_params
 		# self.algorithms.append(SimulatedAnnealing(pa))
-		self.algorithms.append(RandomHIllClimbing(pa))
+
+		# pa = self.params if self.rhc_params is None else self.rhc_params
+		# self.algorithms.append(RandomHillClimbing(pa))
+
+		# pa = self.params if self.ga_params is None else self.ga_params
+		# self.algorithms.append(GeneticAlgorithm(pa))
+
+		pa = self.params if self.mimic_params is None else self.mimic_params
+		self.algorithms.append(Mimic(pa))
 
 		for alg in self.algorithms:
 			# so that the fitness function records to the correct array

@@ -1,5 +1,7 @@
+import appnope
 import json
 import numpy as np
+
 # from akbinod.Utils.Plotting import Plot
 
 from learners import BaseLearner, RandomForest, LearnerParams, SVM
@@ -63,11 +65,21 @@ def main_a1(get_coffee):
 
 def SolveQueens(tune = False):
 	sp = SolverParams()
+	# for the problem
 	sp.num_queens = 32
-	sp.max_iters = np.inf
-	sp.max_attempts = 200
-	sp.restarts = 25
+	# sp.max_iters = np.inf
+	# sp.max_attempts = 200
 
+	# # for RHC
+	# sp.restarts = 25
+
+	# # for GA
+	# sp.pop_size = 100
+	# sp.mutation_prob = 0.1
+	# sp.pop_breed_percent = 0.2
+
+	# lets have the solver override parameters with
+	# whatever its learnt from tuning.
 	slv = Queens(sp,True)
 	if tune:
 		slv.tune()
@@ -77,7 +89,8 @@ def SolveQueens(tune = False):
 		plt.show()
 
 def main():
-	SolveQueens(True)
+	with appnope.nope_scope():
+		SolveQueens(True)
 
 if __name__ == "__main__":
 	main()

@@ -22,3 +22,5 @@ Solvers/__pycache__/Queens.cpython-37.pyc
 Solvers/__pycache__/RandomHIllClimbing.cpython-37.pyc
 Solvers/__pycache__/SimulatedAnnealing.cpython-37.pyc
 Solvers/__pycache__/SolverParams.cpython-37.pyc
+Solvers/__pycache__/GeneticAlgorithm.cpython-37.pyc
+Solvers/__pycache__/Mimic.cpython-37.pyc
