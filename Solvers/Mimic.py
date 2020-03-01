@@ -13,14 +13,14 @@ class Mimic(BaseAlgorithm):
 	@TimedFunction(True)
 	def tune(self, problem, init_state, maximizing):
 		sols = []
-		# pop_size = [200, 1000]
-		# keep_percent = [0.1, 0.25, 0.50]
-		# noise = [0.0, 0.05, 0.1]
-		# max_attempts = [50,100,500]
-		pop_size = [200]
-		keep_percent = [0.1]
-		noise = [0.0]
-		max_attempts = [50]
+		pop_size = [200, 600, 1000]
+		keep_percent = [0.1, 0.25, 0.50]
+		noise = [0.0, 0.05, 0.1]
+		max_attempts = [50,100,500]
+		# pop_size = [200]
+		# keep_percent = [0.1]
+		# noise = [0.0]
+		# max_attempts = [50]
 
 		for ps in pop_size:
 			for kp in keep_percent:

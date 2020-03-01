@@ -1,5 +1,6 @@
 import numpy as np
 from matplotlib import pyplot as plt
+from akbinod.Utils.TimedFunction import TimedFunction
 
 class BaseSolver():
 	def __init__(self, params):
@@ -13,6 +14,7 @@ class BaseSolver():
 		self.ga_params = None
 		self.mimic_params = None
 
+	@TimedFunction(True)
 	def solve(self, runs = 1):
 
 		self.results = []
@@ -53,12 +55,23 @@ class BaseSolver():
 
 		return
 
-	def fitness_fn(self):
-		# implementors must override this function - even if the
-		# override just calls the builtin function from it.
-		# The key is to add the fitness score to an array.
-		# Return this array from solve() - see above
-		raise NotImplementedError()
+	@TimedFunction(True)
+	def tune(self):
+		for alg in self.algorithms:
+			# so that the fitness function records to the correct array
+			self.current_fitness_score = alg.fitness_scores
+			alg.tune(self.problem, self.init_state, self.maximize)
+
+		return
+
+	def fitness_fn(self, state):
+
+		# delegate to the real fitness function
+		ret =  self.fitness_delegate.evaluate(state)
+		# record the score for reporting
+		self.current_fitness_score.append(ret)
+		# to be consumed by mlrose
+		return ret
 
 	@property
 	def fitness_label(self):

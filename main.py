@@ -11,7 +11,7 @@ from learners import BaseLearner, RandomForest, LearnerParams, SVM
 from learners import DecisionTree, KNearestNeighbors, BoostedTree, NeuralNetwork
 from learners.constants import LearnerMode
 
-from Solvers import Queens, SolverParams
+from Solvers import Queens, FourPeaks, Knapsack, SolverParams
 
 SEED = 0
 
@@ -78,6 +78,28 @@ def SolveQueens(tune = False):
 		plt = slv.plot_comparisons()
 		plt.show()
 
+def SolveKnapsack(tune = False):
+	sp = SolverParams()
+	sp.items = 10
+	slv = Knapsack(sp)
+	if tune:
+		slv.tune()
+	else:
+		slv.solve(runs=20)
+		plt = slv.plot_comparisons()
+		plt.show()
+
+def SolvePeaks(tune = False):
+	sp = SolverParams()
+	sp.length = 32
+
+	slv = FourPeaks(sp)
+	if tune:
+		slv.tune()
+	else:
+		slv.solve(runs=20)
+		plt = slv.plot_comparisons()
+		plt.show()
 
 def main(run_name = ""):
 	if run_name == "":
@@ -86,13 +108,11 @@ def main(run_name = ""):
 
 	# this does not show up in mac activity monitor
 	# not in top either - that just showed Python
-	# way to go pythonistas, the worship of all things python
-	# def more important than just plain clarity.
 	setproctitle.setproctitle (run_name)
 	print(setproctitle.getproctitle())
 
 	with appnope.nope_scope():
-		SolveQueens(False)
+		SolveKnapsack(False)
 
 if __name__ == "__main__":
 	# change this to something that shows the grid search your in

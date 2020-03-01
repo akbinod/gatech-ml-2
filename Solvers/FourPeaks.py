@@ -7,34 +7,29 @@ from Solvers.GeneticAlgorithm import GeneticAlgorithm
 from Solvers.Mimic import Mimic
 
 from akbinod.Utils.TimedFunction import TimedFunction
-# import Solvers.SimulatedAnnealing
-
 
 import copy
 
-class Queens(BaseSolver):
+class FourPeaks(BaseSolver):
 	def __init__(self, params):
 		super().__init__(params)
 
-		self.name = "Queens"
-		# change this as well if using the custom maximizing function
-		self._fitness_label = "queen attacks"
+		self.name = "FourPeaks"
+		self._fitness_label = "score"
 
 		# Define initial state
-		self.init_state = np.arange(start=0, stop=self.params.num_queens, step=1)
-		# self.init_state = None
-		# set this to True if using the custom maximizing function
-		self.maximize = False
+		self.init_state = None
+		self.maximize = True
 		self.init_empirical_hp()
 
 		# Define the problem, and initialize custom fitness function object
 		# This delegates to the builtin but gives us the opportunity
 		# to capture fitness values as they are generated. For use in comparison.
-		self.fitness_delegate = mlrose.Queens() #will be used by custom fitness fn
-		self.problem = mlrose.DiscreteOpt(length = self.params.num_queens
+		self.fitness_delegate = mlrose.FourPeaks() #will be used by custom fitness fn
+		self.problem = mlrose.DiscreteOpt(length = self.params.length
 										, fitness_fn = mlrose.CustomFitness(self.fitness_fn)
 										, maximize = self.maximize
-										, max_val = self.params.num_queens)
+										, max_val = 2)
 
 	def init_empirical_hp(self):
 		# these truths we hold to be self evident (come from HP tuning)
@@ -75,27 +70,9 @@ class Queens(BaseSolver):
 		pa.random_state = None
 		self.algorithms.append(Mimic(pa))
 
-	# def fitness_fn(self, state):
-	# 	self._fitness_label = "queens correctly placed"
-	# # Initialize counter
-	# 	bad_queens = 0
-
-	# 	for i in range(len(state) - 1):
-	# 		# For each queen
-	# 		for j in range(i + 1, len(state)):
-	# 			# Check for horizontal, diagonal-up and diagonal-down attacks
-	# 			if (state[j] == state[i]) or (state[j] == state[i] + (j - i)) or (state[j] == state[i] - (j - i)):
-	# 				# attack exists, increment counter of misplaced queens
-	# 				bad_queens += 1
-	# 				break
-	# 	good_queens = self.solver_params.num_queens - bad_queens
-	# 	# add the latest score to the list to be returned
-	# 	self.current_fitness_score.append(good_queens)
-	# 	return good_queens
-
 	@property
 	def fitness_label(self):
 		return self._fitness_label
 
 	def __str__(self):
-		return str(self.params.num_queens) + " Queens"
+		return self.name + "-" + str(self.params.length)

@@ -8,4 +8,6 @@ from Solvers.SolverParams import SolverParams
 
 from Solvers.BaseSolver import BaseSolver
 from Solvers.Queens import Queens
+from .FourPeaks import FourPeaks
+from .Knapsack import Knapsack
 
