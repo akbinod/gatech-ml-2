@@ -62,7 +62,7 @@ class Mimic(BaseAlgorithm):
 	def solve(self, problem, init_state):
 		# Solve problem using Genetic Algorithms
 		t1 = time.process_time()
-		self.best_state , self.best_fitness, self.iteration_scores = mlrose.mimic (
+		self.best_state, self.best_fitness, self.iteration_scores = mlrose.mimic (
 												problem
 												, pop_size = self.params.pop_size
 												, keep_pct = self.params.keep_pct

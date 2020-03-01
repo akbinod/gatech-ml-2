@@ -56,7 +56,7 @@ class GeneticAlgorithm(BaseAlgorithm):
 	def solve(self, problem, init_state):
 		# Solve problem using Genetic Algorithms
 		t1 = time.process_time()
-		self.best_state , self.best_fitness, self.iteration_scores = mlrose.genetic_alg(
+		self.best_state, self.best_fitness, self.iteration_scores = mlrose.genetic_alg(
 												problem
 												, pop_size = self.params.pop_size
 												, pop_breed_percent= self.params.pop_breed_percent

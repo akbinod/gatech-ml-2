@@ -137,5 +137,6 @@ class SimulatedAnnealing(BaseAlgorithm):
 		t2 = time.process_time()
 		self.solve_time = t2 - t1
 
+
 		return
 

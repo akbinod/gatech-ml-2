@@ -60,8 +60,9 @@ class Queens(BaseSolver):
 		self.ga_params.pop_size = 1000
 		self.ga_params.pop_breed_percent = 0.50
 		self.ga_params.mutation_prob = 0.25
-		self.rhc_params.max_iters = np.inf
-		self.rhc_params.max_attempts = 250
+		self.ga_params.max_iters = np.inf
+		self.ga_params.max_attempts = 250
+		self.ga_params.random_state = None
 
 		# set up whatever we know about Mimic
 		self.mimic_params = copy.deepcopy(self.params)
@@ -70,6 +71,7 @@ class Queens(BaseSolver):
 		self.mimic_params.noise = 0.01
 		self.mimic_params.max_iters = np.inf
 		self.mimic_params.max_attempts = 20
+		self.mimic_params.random_state = None
 
 	@TimedFunction(True)
 	def tune(self):
@@ -94,21 +96,21 @@ class Queens(BaseSolver):
 		alg.tune(self.problem, self.init_state, False)
 
 		return
-	def solve(self):
-		# Solve problem using all the tuned algorithms that apply to this proble,
+	def solve(self, *, runs = 1):
+		# # Solve problem using all the tuned algorithms that apply to this proble,
 		pa = self.params if self.sa_params is None else self.sa_params
 		self.algorithms.append(SimulatedAnnealing(pa))
 
 		pa = self.params if self.rhc_params is None else self.rhc_params
 		self.algorithms.append(RandomHillClimbing(pa))
 
-		# pa = self.params if self.ga_params is None else self.ga_params
-		# self.algorithms.append(GeneticAlgorithm(pa))
+		pa = self.params if self.ga_params is None else self.ga_params
+		self.algorithms.append(GeneticAlgorithm(pa))
 
-		# pa = self.params if self.mimic_params is None else self.mimic_params
-		# self.algorithms.append(Mimic(pa))
+		pa = self.params if self.mimic_params is None else self.mimic_params
+		self.algorithms.append(Mimic(pa))
 
-		return super().solve()
+		return super().solve(runs=runs)
 
 	# def fitness_fn(self, state):
 	# 	self._fitness_label = "queens correctly placed"

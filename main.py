@@ -68,26 +68,13 @@ def main_a1(get_coffee):
 
 def SolveQueens(tune = False):
 	sp = SolverParams()
-	# for the problem
-	sp.num_queens = 8
-	# sp.max_iters = np.inf
-	# sp.max_attempts = 200
+	sp.num_queens = 16
 
-	# # for RHC
-	# sp.restarts = 25
-
-	# # for GA
-	# sp.pop_size = 100
-	# sp.mutation_prob = 0.1
-	# sp.pop_breed_percent = 0.2
-
-	# lets have the solver override parameters with
-	# whatever its learnt from tuning.
 	slv = Queens(sp)
 	if tune:
 		slv.tune()
 	else:
-		slv.solve()
+		slv.solve(runs=20)
 		plt = slv.plot_comparisons()
 		plt.show()
 
