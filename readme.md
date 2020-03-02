@@ -26,19 +26,25 @@ This code was developed on a mac, using VSCode, and python 3.7.6. Where file pat
 
 <h3>Code Organization</h3>
 <p>
-The various Solver and Algorithm classes implement all the code required by this assignment. Code for Assignment 1 has been left in, I did not have the time to examine what was safe to remove. The files to review are:
+The various Solver and Algorithm classes implement all the code required by this assignment. Code for Assignment 1 has been left in, I did not have the time to examine what was safe to remove.
 
+The files to review are:
 BaseSolver (base class for implementing a solution to one of the problems)
-	Queens.py
-	FourPeaks.py
-	Knapsack.py
-BaseAlgorithm (base class for implementing an algorighm)
-	SimulatedAnnealing
-	RandomHillClimbing
-	GeneticAlgorithm
-	Mimic
+<ul>
+	<li>Queens.py
+	<li>FourPeaks.py
+	<li>Knapsack.py
+	<li>IrisANN.py (does not derive from BaseSolver)
+</ul>
+BaseAlgorithm (base class for implementing an algorithm)
+<ul>
+	<li>SimulatedAnnealing
+	<li>RandomHillClimbing
+	<li>GeneticAlgorithm
+	<li>Mimic
+</ul>
 
-Apart from these pieces, there are a number of utility files for anciliary operations like plotting, timing, etc which have little bearing on the main purpose of this project, but help me profile and debug. This project builds on code that I developed during CS-7642 during  Fall '19.
+Apart from these pieces, there are a number of utility files for ancillary operations like plotting, timing, etc which have little bearing on the main purpose of this project, but help me profile and debug. This project builds on code that I developed during CS-7642 during  Fall '19.
 </p>
 
 

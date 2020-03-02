@@ -11,7 +11,7 @@ from learners import BaseLearner, RandomForest, LearnerParams, SVM
 from learners import DecisionTree, KNearestNeighbors, BoostedTree, NeuralNetwork
 from learners.constants import LearnerMode
 
-from Solvers import Queens, FourPeaks, Knapsack, SolverParams
+from Solvers import Queens, FourPeaks, Knapsack, SolverParams, IrisANN
 
 SEED = 0
 
@@ -101,6 +101,12 @@ def SolvePeaks(tune = False):
 		plt = slv.plot_comparisons()
 		plt.show()
 
+def part2():
+	sp = SolverParams()
+
+	slv = IrisANN(sp)
+	slv.benchmark()
+
 def main(run_name = ""):
 	if run_name == "":
 		# just use the folder name - that's probably going to be the project/run
@@ -112,7 +118,7 @@ def main(run_name = ""):
 	print(setproctitle.getproctitle())
 
 	with appnope.nope_scope():
-		SolveKnapsack(False)
+		part2()
 
 if __name__ == "__main__":
 	# change this to something that shows the grid search your in
