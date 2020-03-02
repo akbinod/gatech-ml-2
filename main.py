@@ -118,6 +118,10 @@ def main(run_name = ""):
 	print(setproctitle.getproctitle())
 
 	with appnope.nope_scope():
+		# SolveQueens()
+		# SolvePeaks
+		# SolveKnapsack
+
 		part2()
 
 if __name__ == "__main__":

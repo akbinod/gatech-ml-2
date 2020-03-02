@@ -44,12 +44,13 @@ class IrisANN():
 
 	TimedFunction(True)
 	def benchmark(self):
-		# Must be one of:’random_hill_climb’, ‘simulated_annealing’, ‘genetic_alg’ or ‘gradient_descent’.
+
 		models = self.get_models_sa()
 		self.dump_models(models)
 
-		models = self.get_models_rhc()
-		self.dump_models(models)
+		# UNCOMMENT THE FOLLOWING LINES FOR A FULL RUN
+		# models = self.get_models_rhc()
+		# self.dump_models(models)
 
 		# models = self.get_models_ga()
 		# self.dump_models(models)
