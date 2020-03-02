@@ -1,4 +1,4 @@
-import appnope
+# import appnope
 import json
 import numpy as np
 import setproctitle
@@ -117,12 +117,12 @@ def main(run_name = ""):
 	setproctitle.setproctitle (run_name)
 	print(setproctitle.getproctitle())
 
-	with appnope.nope_scope():
-		# SolveQueens()
-		# SolvePeaks
-		# SolveKnapsack
+	# with appnope.nope_scope():
+	# SolveQueens()
+	# SolvePeaks
+	# SolveKnapsack
 
-		part2()
+	part2()
 
 if __name__ == "__main__":
 	# change this to something that shows the grid search your in
